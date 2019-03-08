@@ -1,0 +1,1 @@
+[22-Sep-2014 17:20:46 America/Chicago] PHP Fatal error:  Call to undefined function get_locale_links() in /home/olbe/public_html/chat/operator/login.php on line 49

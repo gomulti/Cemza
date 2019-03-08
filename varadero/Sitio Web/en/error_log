@@ -1,0 +1,13 @@
+[24-Jan-2019 13:14:00 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 30
+[24-Jan-2019 13:14:00 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 30
+[24-Jan-2019 13:14:00 America/Chicago] PHP Fatal error:  require(): Failed opening required 'cms/wp-blog-header.php' (include_path='.:/opt/php70/lib/php') in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 30
+[24-Jan-2019 14:38:51 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 747
+[24-Jan-2019 14:59:11 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 440
+[02-Feb-2019 03:44:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_get_the_content() in /home4/gomserve/public_html/pruebas/varaderos/en/index.php:747
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 747
+[02-Feb-2019 03:44:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_get_the_content() in /home4/gomserve/public_html/pruebas/varaderos/en/index.php:747
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 747

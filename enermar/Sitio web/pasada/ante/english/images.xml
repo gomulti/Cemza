@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+    <album id="ssp" lgPath="gallery/album1/images/" tnPath="gallery/album1/thumb/" title="Enermar" description="Suministro de combustible" tn="gallery/album1/preview.jpg">
+        <img src="01.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="02.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="03.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="04.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="05.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="06.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="07.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="08.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="09.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="10.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="11.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="12.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="13.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="14.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="15.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="16.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="17.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="18.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="19.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="20.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="21.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+		<img src="22.jpg" title="" caption="" link="" target="_blank" pause="" vidpreview="" />
+    </album>
+</gallery>

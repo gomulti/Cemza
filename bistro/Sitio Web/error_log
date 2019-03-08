@@ -1,0 +1,122 @@
+[24-Jan-2019 19:19:42 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:19:42 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:19:42 America/Chicago] PHP Fatal error:  require(): Failed opening required 'cms/wp-blog-header.php' (include_path='.:/opt/php70/lib/php') in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:21:36 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:21:36 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:21:36 America/Chicago] PHP Fatal error:  require(): Failed opening required 'cms/wp-blog-header.php' (include_path='.:/opt/php70/lib/php') in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:26:09 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:26:09 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:26:09 America/Chicago] PHP Fatal error:  require(): Failed opening required 'cms/wp-blog-header.php' (include_path='.:/opt/php70/lib/php') in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:26:17 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:26:17 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:26:17 America/Chicago] PHP Fatal error:  require(): Failed opening required 'cms/wp-blog-header.php' (include_path='.:/opt/php70/lib/php') in /home4/gomserve/public_html/pruebas/bistro/index.php on line 30
+[24-Jan-2019 19:26:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:188
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 188
+[24-Jan-2019 19:28:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:188
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 188
+[24-Jan-2019 19:28:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:188
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 188
+[24-Jan-2019 19:28:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:187
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 187
+[24-Jan-2019 19:29:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:187
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 187
+[24-Jan-2019 19:29:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:187
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 187
+[24-Jan-2019 19:29:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:187
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 187
+[24-Jan-2019 19:30:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:185
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 185
+[24-Jan-2019 19:30:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:185
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 185
+[24-Jan-2019 19:30:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:185
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 185
+[24-Jan-2019 19:30:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:185
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 185
+[24-Jan-2019 19:33:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:185
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 185
+[24-Jan-2019 19:34:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:185
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 185
+[24-Jan-2019 19:34:10 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:185
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 185
+[24-Jan-2019 19:38:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:185
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 185
+[24-Jan-2019 19:38:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:185
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 185
+[24-Jan-2019 19:38:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:185
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 185
+[24-Jan-2019 19:39:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:198
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 198
+[24-Jan-2019 19:42:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:198
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 198
+[24-Jan-2019 19:42:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function query_posts() in /home4/gomserve/public_html/pruebas/bistro/index.php:198
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 198
+[24-Jan-2019 19:43:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_content() in /home4/gomserve/public_html/pruebas/bistro/index.php:237
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 237
+[24-Jan-2019 19:44:15 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_content() in /home4/gomserve/public_html/pruebas/bistro/index.php:237
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 237
+[24-Jan-2019 19:46:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /home4/gomserve/public_html/pruebas/bistro/index.php on line 281
+[24-Jan-2019 19:46:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /home4/gomserve/public_html/pruebas/bistro/index.php on line 281
+[24-Jan-2019 19:47:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_content() in /home4/gomserve/public_html/pruebas/bistro/index.php:237
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 237
+[24-Jan-2019 19:48:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_content() in /home4/gomserve/public_html/pruebas/bistro/index.php:237
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 237
+[24-Jan-2019 19:48:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_content() in /home4/gomserve/public_html/pruebas/bistro/index.php:237
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 237
+[24-Jan-2019 19:48:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_content() in /home4/gomserve/public_html/pruebas/bistro/index.php:237
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 237
+[24-Jan-2019 19:50:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_content() in /home4/gomserve/public_html/pruebas/bistro/index.php:237
+Stack trace:
+#0 {main}
+  thrown in /home4/gomserve/public_html/pruebas/bistro/index.php on line 237

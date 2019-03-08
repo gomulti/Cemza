@@ -1,0 +1,50 @@
+@charset "UTF-8";
+	fieldset { border:0;margin:0;padding:0; }
+	label {
+	display:block;
+	padding-bottom: 5px;
+}
+#sendContactEmail {
+	margin-top: 15px;
+}
+#formulario_cont {
+	height: 265px;
+	width: 280px;
+	background-repeat: no-repeat;
+	font-size: 11px;
+	padding-left: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	padding-top: 0px;
+}
+#cForm {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.formularios {
+	font-size: 11px;
+	background-color: #AFC1C9;
+	border: 1px solid #999;
+	width: 190px;
+	color: #333;
+}
+.formularios2 {
+	font-size: 10px;
+	background-color: #AFC1C9;
+	border: 1px solid #999;
+	width: 190px;
+	color: #333;
+}

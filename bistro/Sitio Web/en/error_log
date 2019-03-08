@@ -1,0 +1,11 @@
+[24-Jan-2019 13:14:00 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 30
+[24-Jan-2019 13:14:00 America/Chicago] PHP Warning:  require(cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 30
+[24-Jan-2019 13:14:00 America/Chicago] PHP Fatal error:  require(): Failed opening required 'cms/wp-blog-header.php' (include_path='.:/opt/php70/lib/php') in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 30
+[24-Jan-2019 14:38:51 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 747
+[24-Jan-2019 14:59:11 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/gomserve/public_html/pruebas/varaderos/en/index.php on line 440
+[28-Jan-2019 10:57:20 America/Chicago] PHP Warning:  require(../cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/en/index.php on line 30
+[28-Jan-2019 10:57:20 America/Chicago] PHP Warning:  require(../cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/en/index.php on line 30
+[28-Jan-2019 10:57:20 America/Chicago] PHP Fatal error:  require(): Failed opening required '../cms/wp-blog-header.php' (include_path='.:/opt/php70/lib/php') in /home4/gomserve/public_html/pruebas/bistro/en/index.php on line 30
+[28-Jan-2019 10:57:32 America/Chicago] PHP Warning:  require(../cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/en/index.php on line 30
+[28-Jan-2019 10:57:32 America/Chicago] PHP Warning:  require(../cms/wp-blog-header.php): failed to open stream: No such file or directory in /home4/gomserve/public_html/pruebas/bistro/en/index.php on line 30
+[28-Jan-2019 10:57:32 America/Chicago] PHP Fatal error:  require(): Failed opening required '../cms/wp-blog-header.php' (include_path='.:/opt/php70/lib/php') in /home4/gomserve/public_html/pruebas/bistro/en/index.php on line 30

@@ -1,0 +1,1038 @@
+html, body
+{
+  	height: 100%;
+}
+
+body
+{
+  	font: 16px 'open_san';  
+	color: #666666;
+	background-color: #ffffff;
+	position: relative;
+}
+
+strong
+{
+  	font-family: 'open_sansbold';
+}
+
+em
+{
+	font-family: 'open_sansitalic';
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	color: #e97542;
+ 	font: 48px 'ralewaymedium';	
+}
+
+a, a:before, a:after
+{
+	color: #ffffff;
+ 	text-decoration: none;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+a:hover, a:hover:before, a:hover:after
+{	
+	cursor: pointer;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+span, span:before, span:after
+{
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+span:hover, span:hover:before, span:hover:after
+{	
+	cursor: pointer;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+input, textarea
+{
+	width: 100%;
+    height: 42px;
+    font: 16px 'open_san';
+    color: #ffffff;
+    background: none;
+    border: 0px;
+    border-bottom: 3px solid #c1c1c1;
+    margin: 0px;
+    padding: 0px;
+	margin-bottom: 22px;
+}
+
+textarea
+{
+	height: 142px;
+	padding-top: 6px;
+	margin-bottom: 2px;
+	resize: none;
+}
+
+input[type="number"]
+{
+    width: 35px;
+    height: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    border: 2px solid #A6244A;
+}
+
+input:focus, textarea:focus, .inputSeleccionado
+{
+	outline: 0;
+	border-color: #ef662f;
+}
+
+input[type="checkbox"]
+{
+	width: auto;
+	height: auto;
+	margin: 0px;
+	margin-right: 9px;
+	vertical-align: middle;
+}
+
+/******************************************************Placeholder******************************************************/
+
+::-webkit-input-placeholder
+{
+ 	color: #ffffff;
+}
+
+::-o-input-placeholder
+{
+ 	color: #ffffff;
+}
+
+::-ms-input-placeholder
+{
+ 	color: #ffffff;
+}
+
+:-moz-input-placeholder
+{
+ 	color: #ffffff;
+}
+
+::-moz-input-placeholder
+{
+ 	color: #ffffff;
+}
+
+
+/************************************************************************************/
+
+.Header{
+	height: 100%;
+	
+	position:relative;
+}
+
+.Header_slide{
+	width: 100%;
+	height: 100% !important;
+	background: url(../images/fondos/bgHeader.jpg) no-repeat;
+	position: absolute !important;
+	/*height: 100% !important;
+	*/
+}
+
+.Header-Center{
+	max-width: 600px;
+	padding: 0px 10px;
+	position: relative;
+	top: 21%;
+}
+
+.Header-Logo{
+	width: 360px;
+	height: 88px;
+	background: url(../images/logo.png) no-repeat;
+	margin-bottom: 90px;
+}
+
+.Header-Txt{
+	color: #fff;
+	font: 24px 'open_sanssemibold';
+	margin-bottom: 80px;
+}
+
+.Header-Linea{
+	width: 209px;
+	height: 8px;
+	background-color: #e97542;
+}
+
+
+
+
+
+
+.HeaderMenu{
+	bottom: 85px;
+}
+
+.HeaderMenu-List{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.HeaderMenu-ItemList{
+	font: 17.85px 'open_sanssemibold';
+	margin-right: 75px;
+}
+
+.HeaderMenu-ItemList:hover{
+    color: #e97542;
+}
+
+.HeaderMenu-IcoMenu {
+    display: none;
+    width: 42px;
+    height: 40px;
+    background: #b4b3b4 url(../images/menu.png) no-repeat;
+    margin-top: -8px;
+    background-size: 100%;
+    margin-left: 10px;
+}
+
+.HeaderMenu-IcoMenu:hover {
+    background-color: #e97542;
+}
+
+
+
+.MainMenu{
+	height: 74px;
+	background: #f0f0f0;
+	border-bottom: 5px solid #c5ccd3;
+	padding-top: 24px;
+	position: fixed;
+	top: -103px;
+	z-index: 1;
+}
+
+.MainMenu.ActivarMenu{
+	top: 0px;
+}
+
+.MainMenu-Logo{
+	margin-right: 50px;
+}
+
+.MainMenu-Logo img:hover{
+	-webkit-transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);
+	cursor: pointer;
+}
+
+
+.MainMenu-IcoMenu {
+    display: none;
+    width: 42px;
+    height: 40px;
+    background: #b4b3b4 url(../images/menu.png) no-repeat;
+    margin-top: -8px;
+    background-size: 100%;
+    margin-right: 10px;
+}
+
+.MainMenu-IcoMenu:hover {
+    background-color: #e97542;
+}
+
+.MainMenu-List{
+	display: inline-block;
+	margin-top: 16px;
+	vertical-align: top;
+}
+
+.MainMenu-ItemList{
+	color: #666666;
+	font: 15.85px 'open_sanssemibold';
+	margin-right: 70px;
+}
+
+.MainMenu-ItemList:hover,.MainMenu-ItemList.activo{
+	color: #e97542;
+}
+
+.MainMenu-Idioma{
+	width: 31px;
+	height: 36px;
+	background: url(../images/icoLenguaje.png) no-repeat;
+	margin-top: 6px;
+	margin-left: 50px;
+	position: relative;
+}
+
+.MainMenu-Idioma:hover{
+	border-color: #ff8760;
+}
+
+.MainMenu-Idioma a{
+	font-size: 14px;
+    background-color: #666666;
+    padding: 5px 8px;
+    bottom: -31px;
+	left: -20px;
+	opacity: 0;
+}
+
+.MainMenu-Idioma a:hover{
+	background-color: #e97442;
+}
+
+.MainMenu-Idioma:hover a{
+	opacity: 1;
+}
+
+/************************************************************************************/
+
+.Nosotros{
+	height: 795px;
+	background: url(../images/fondos/bgNosotros.jpg) no-repeat;
+}
+
+.Nosotros-Center{
+	width: 1050px;
+	padding-top: 160px;
+}
+
+.Nosotros-Title{
+	letter-spacing: -0.9px;
+}
+
+.Nosotros-Title span{
+	width: 179px;
+	height: 6px;
+	background-color: #e97542;
+	margin-top: 23px;
+}
+
+.Nosotros-Txt{
+	max-width: 510px;
+	font-size: 24px;
+	margin-top: 38px;
+}
+
+.Nosotros-List{
+	max-width: 520px;
+	margin-top: 40px;
+}
+
+.Nosotros-List li{
+	margin-bottom: 15px;
+}
+
+.Nosotros-List li img{
+	margin-top: 5px;
+	margin-right: 14px;
+	float: left;
+}
+
+.Nosotros-List li p {
+	display: inline-block;
+	width: 439px;
+}
+
+
+/************************************************************************************/
+
+.Servicios{
+	background: #e97542;
+}
+
+.Servicios-Center{
+	color: #ffffff;
+	padding-top: 64px;
+}
+
+.Servicios-Title{
+	color: #ffffff;
+	margin-bottom: 24px;
+}
+
+.Servicios-Title span{
+	width: 179px;
+	height: 6px;
+	background-color: #ffffff;
+	margin: 0px auto;
+	margin-top: 23px;
+}
+
+.Servicios-Txt{
+	margin-bottom: 55px;
+}
+
+.Servicios-List{
+	width: 100%;
+}
+
+.Servicios-List li{
+	width: 25%;
+}
+
+.Servicios-ItemList{
+	width: 100%;
+	height: 284px;
+	background-color: #5b626a;
+	position: relative;
+}
+
+.Servicios-ItemList div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.Servicios-ItemList div:before {
+	content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 20px solid #e97542;
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+    margin: 0px auto;
+    left: 0px;
+	right: 0px;
+	bottom: -20px;
+	opacity: 0;
+}
+
+.Servicios-ItemList--C2{
+	background-color: #3b3f43;
+}
+
+.Servicios-IcoItemList {
+	width: 89px;
+	height: 89px;
+	background: #e97542 center no-repeat;
+	margin: 0px auto;
+	margin-top: 54px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.Servicios-IcoItemList--Reclutamiento{
+	background-image: url(../images/icoReclutamiento.png);
+}
+
+.Servicios-IcoItemList--Contratacion{
+	background-image: url(../images/icoContratacion.png);
+}
+
+.Servicios-IcoItemList--Cursos {
+	background-image: url(../images/icoCursos.png);
+}
+
+.Servicios-IcoItemList--Logistica {
+	background-image: url(../images/icoLogistica.png);
+}
+
+.Servicios-TitleItemList{
+	max-width: 272px;
+	color: #fff;
+	font: 18px 'ralewaysemibold';
+	position: relative;
+}
+
+.Servicios-TitleItemList--Reclutamiento{
+	max-width: 200px;
+}
+
+.Servicios-ItemList:hover,.Servicios-ItemList.activo{
+	background-color: #e97542;
+}
+
+.Servicios-ItemList:hover div, .Servicios-ItemList.activo div {
+	background-color: #e97542;
+	-webkit-transform: scaleY(1.08);
+	-o-transform: scaleY(1.08);
+	-moz-transform: scaleY(1.08);
+	-ms-transform: scaleY(1.08);
+	transform: scaleY(1.08);
+	-webkit-box-shadow: -2px 2px 21px 0px rgba(0,0,0,0.75);
+	-o-box-shadow: -2px 2px 21px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 2px 21px 0px rgba(0,0,0,0.75);
+	-ms-box-shadow: -2px 2px 21px 0px rgba(0,0,0,0.75);
+	box-shadow: -2px 2px 21px 0px rgba(0,0,0,0.75);
+}
+
+.Servicios-ItemList:hover div:before, .Servicios-ItemList.activo div:before {
+	opacity: 1;
+}
+
+.Servicios-ItemList:hover .Servicios-IcoItemList, .Servicios-ItemList.activo .Servicios-IcoItemList {
+	background-color: #ed9168;
+}
+
+.Servicios-InfoList {
+	height: 456px;
+	background: url(../images/servicios/servicio0.jpg) no-repeat;
+}
+
+.Servicios-InfoListR {
+	height: auto;
+	background: url(../images/servicios/servicio0.jpg) no-repeat;
+}
+
+.Servicios-ItemInfoList {
+	padding-top: 96px;
+}
+
+.Servicios-ImgItemInfoList img {
+	width: 244px;
+	height: 244px;
+	border: 8px solid  #e97542;
+	-webkit-border-radius: 100%;
+	-o-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	border-radius: 100%;	
+}
+
+.Servicios-DatosItemInfoList {
+	width: 650px;
+	margin-top: 40px;
+	margin-left: 58px;
+}
+
+.Servicios-DatosItemInfoList h1,.Servicios-DatosItemInfoList h2,.Servicios-DatosItemInfoList h3,.Servicios-DatosItemInfoList h4,.Servicios-DatosItemInfoList h5,.Servicios-DatosItemInfoList h6{
+	color: #fff;
+	font: 24px 'ralewaybold';
+	margin-bottom: 10px;
+
+}
+
+.Servicios-DatosItemInfoList ul{
+	list-style-type: disc;
+	margin-top: 15px;
+	margin-left: 18px;
+}
+
+.Servicios-InfoListR .Servicios-ImgItemInfoList{
+	padding-top: 40px;
+}
+
+.Servicios-InfoListR .Servicios-DatosItemInfoList{
+	padding-bottom: 50px;
+}
+
+/************************************************************************************/
+
+.Productos{
+	height: 1079px;
+	background: url(../images/fondos/bgProductos.jpg) center no-repeat;
+}
+
+.Productos-Center{
+	width: 100%;
+	max-width: 1296px;
+	padding-top: 190px;
+}
+
+.Productos-Content{
+	width: 760px;
+}
+
+.Productos-Title {
+	margin-bottom: 50px;
+}
+
+.Productos-Title span{
+	width: 179px;
+	height: 6px;
+	background-color: #e97542;
+	margin-top: 23px;
+	margin-left: 21px;
+}
+
+.Productos-Item{
+	width: 575px;
+    background-color: rgba(255,255,255,0.80);
+    padding-top: 26px;
+    padding-left: 85px;
+    padding-right: 55px;
+    padding-bottom: 18px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.Productos-IcoItem{
+	width: 87px;
+	height: 87px;
+	background: #e97542 center no-repeat;
+	top: 18px;
+	left: -45px;
+}
+
+.Productos-TitleItem{
+	font-size: 24px;
+}
+
+.Productos-TxtDescarga {
+	padding-top: 60px;
+    clear: both;
+}
+
+.Productos-BtnDescarga {
+	width: 138px;
+	color: #333333;
+	font: 18px 'ralewaysemibold';
+	border: 3px solid #e97542;
+	margin: 0px auto;
+	margin-top: 18px;
+	padding: 6px 0px;
+	padding-left: 79px;
+	position: relative;
+}
+
+.Productos-BtnDescarga:before {
+	content: "";
+	width: 16px;
+	height: 5px;
+	background: url(../images/barraDescargar.png) top no-repeat;
+	position: absolute;
+	left: 45px;
+	top: 20px;
+}
+
+.Productos-BtnDescarga:after {
+	content: "";
+	width: 12px;
+	height: 12px;
+	background: url(../images/flechaDescargar.png) bottom no-repeat;
+	position: absolute;
+	top: 8px;
+	left: 47px;
+}
+
+
+.Productos-BtnDescarga:hover{
+	color: #fff;
+	background-color: #F55413;
+    border-color: #bf3a00;
+}
+
+.Productos-BtnDescarga:hover:before{
+	background-position: bottom;
+}
+
+.Productos-BtnDescarga:hover:after{
+	background-position: top;
+	top: 10px;
+}
+
+/************************************************************************************/
+
+.Certificaciones{
+	height: 820px;
+	background-color: #ffffff;
+}
+
+.Certificaciones-Center{
+	padding-top: 30px;
+}
+
+.Certificaciones-Title{
+	margin-bottom: 35px;
+}
+
+.Certificaciones-Title span{
+	width: 179px;
+	height: 6px;
+	background-color: #e97542;
+	margin: 0px auto;
+	margin-top: 23px;
+}
+
+.Certificaciones-Txt{
+	max-width: 684px;
+	margin: 0px auto;
+	margin-bottom: 70px;
+}
+
+.Certificaciones-ItemList{
+	display: inline-block;
+	margin-right: 120px;
+	position: relative;
+	vertical-align: middle;
+}
+
+.Certificaciones-Info {
+	display: none;
+	width: 380px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+	border-bottom: 5px solid #e97542;
+	margin-top: 50px;
+    padding: 0px 20px;
+    padding-top: 38px;
+	padding-bottom: 38px;
+	left: -160px;
+	z-index: 1;
+}
+
+.Certificaciones-Info:before {
+	content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #f2f2f2;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    margin: 0px auto;
+    top: -19px;
+    left: 0px;
+    right: 0px;
+}
+
+.Certificaciones-ItemList:hover{
+	cursor: pointer;
+}
+
+.Certificaciones-ItemList:hover .Certificaciones-Info {
+	display: block;
+}
+
+/************************************************************************************/
+
+.Reclutamiento{
+	height: 851px;
+	background: url(../images/fondos/bgReclutamiento.jpg) 50% 0 no-repeat fixed;
+}
+
+.Reclutamiento-Center{
+	width: 96%;
+	color: #333333;
+	max-width: 893px;
+	background-color: rgba(242,242,242,0.90);
+	padding-top: 70px;
+	padding-bottom: 48px;
+	margin-top: 160px;
+	position:relative;
+}
+
+.Reclutamiento-Center:before{
+	content: "";
+	display: block;
+	width: 94px;
+	height: 94px;
+	background: #e97542 url(../images/icoBolsaTrabajo.png) center no-repeat;
+	margin: 0pc auto;
+	-webkit-border-radius: 100%;
+	-o-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	border-radius: 100%;		
+	position: absolute;
+	top: -47px;
+	left: 0px;
+	right: 0px;
+	behavior: url('PIE/PIE.htc');
+}
+
+.Reclutamiento-Title {
+	color: #333333;
+	margin-bottom: 28px;
+}
+
+.Reclutamiento-Title span{
+	width: 179px;
+	height: 6px;
+	background-color: #e97542;
+	margin: 0px auto;
+	margin-top: 23px;
+}
+
+.Reclutamiento-Txt{
+	width: 100%;
+	max-width: 660px;
+	margin: 0px auto;
+	margin-bottom: 50px;
+}
+
+.Reclutamiento-Btn{
+	width: 150px;
+	color: #333333;
+	font: 18px 'ralewaysemibold';
+	border: 3px solid #e69876;
+	padding: 6px 0px;
+	padding-left: 69px;
+	position: relative;
+}
+
+.Reclutamiento-Btn:before{
+	content:"";
+	width: 21px;
+	height: 18px;
+	background: url(../images/icoVerBolsaTrabajo.png) top no-repeat;
+	position: absolute;
+	top: 6px;
+	left: 28px;
+}
+
+.Reclutamiento-Btn:hover{
+	color: #fff;
+	background-color: #F55413;
+    border-color: #bf3a00;
+}
+
+.Reclutamiento-Btn:hover:before{
+	background-position: bottom;
+}
+
+
+
+/************************************************************************************/
+
+
+/*.SubeTuCv{
+	height: 343px;
+	background: url(../images/fondos/bgSubeTuCv.jpg) no-repeat;
+}
+
+.SubeTuCv-Center{
+	max-width: 630px;
+	color: #ffffff;
+	padding-top: 70px;
+}
+
+.SubeTuCv-Title{
+	color: #ffffff;
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+.SubeTuCv-Btn{
+	width: 130px;
+	font: 18px 'ralewaysemibold';
+	padding: 6px 0px;
+	padding-left: 87px;
+	border: 3px solid #e97542;
+	margin-top: 50px;
+	position: relative;
+}
+
+.SubeTuCv-Btn:after{
+	content: "";
+	width: 22px;
+	height: 9px;
+	background: url(../images/barraSubir.png) no-repeat;
+	position: absolute;
+	top: 17px;
+	left: 48px;
+}
+
+.SubeTuCv-Btn:before{
+	content: "";
+	width: 14px;
+	height: 16px;
+	background: url(../images/flechaSubir.png) no-repeat;
+	position: absolute;
+	top: 4px;
+	left: 52px;
+}
+
+.SubeTuCv-Btn:hover{
+	border-color: #ff834c;
+}
+
+.SubeTuCv-Btn:hover:before{
+	top: 2px;
+}*/
+
+
+/************************************************************************************/
+
+.Contacto{
+	height: 983px;
+	background: url(../images/fondos/bgFooter.jpg) no-repeat;
+	position: relative;
+}
+
+.Contacto-Center{
+	width: 1143px;
+	color: #ffffff;
+	padding-top: 140px;
+}
+
+.Contacto-Title{
+	color: #fffefe;
+	margin-bottom: 56px;
+}
+
+.Contacto-Title span{
+	width: 179px;
+	height: 6px;
+	background-color: #e97542;
+	margin: 0px auto;
+	margin-top: 23px;
+}
+
+.Contacto-Txt{
+	max-width: 650px;
+	color: #e97542;
+	font: 24px 'ralewaymedium';
+	margin-bottom: 100px;
+}
+
+.Contacto-Datos{
+	max-width: 340px;
+	margin-top: 26px;
+}
+
+.Contacto-List li{
+	padding-left: 31px;
+	margin-bottom: 25px;
+}
+
+.Contacto-icoDireccionList{
+	background: url(../images/icoDireccion.png) 0px 7px no-repeat;
+}
+
+.Contacto-icoTelefonoList{
+	background: url(../images/icoTelefono.png) 0px 4px no-repeat;
+}
+
+.Contacto-icoEmailList{
+	background: url(../images/icoEmail.png) 0px 6px no-repeat;
+}
+
+.Contacto-List a {
+	color: #e97542;
+}
+
+.Contacto-List a:hover{
+	color: #ff4e00;
+	text-decoration: underline;
+}
+
+.Contacto-RedesSociales{
+	margin-top: 70px;
+	padding-left: 26px;
+}
+
+.Contacto-ItemRedSocial{
+	margin-right: 20px;
+}
+
+.Contacto-ItemRedSocial:hover{
+	-webkit-transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);
+}
+
+.Contacto-Formulario{
+	width: 468px;
+	padding-top: 0px;
+}
+
+.Contacto-BtnEnviar{
+	width: 155px;
+	height: 33px;
+	font: 20px 'open_sanssemibold';
+	background: none;
+	border: 3px solid #e97542;
+	margin-top: 10px;
+	padding-top: 3px;
+	padding-left: 61px;
+	position:relative;
+}
+
+.Contacto-BtnEnviar:before{
+	content: "";
+	width: 28px;
+	height: 20px;
+	background: url(../images/icoEnviar.png) no-repeat;
+	position: absolute;
+	top: 10px;
+	right: 33px;
+}
+
+.Contacto-BtnEnviar:hover{
+	background-color: #F55413;
+    border-color: #bf3a00;
+}
+
+.Contacto-BtnEnviar:hover:before{
+	right: 30px;
+	background: url(../images/icoEnviar2.png) no-repeat;
+}
+
+.Contacto-Msj{
+	display: none;
+	margin-top: 30px;
+}
+
+.Contacto-Msj strong{
+	color: #eb7135;
+    font-size: 24px;
+}
+
+
+/************************************************************************************/
+
+.DerechoAutor{
+	background-color: #222222; 
+}
+
+.DerechoAutor-Center{
+	width: 1156px;
+	color: #eaeaea;
+	font-size: 14px;
+	padding: 26px 0px;
+}
+
+.DerechoAutor-Center p{
+	padding-top: 5px;
+}
+
+.DerechoAutor-Politica{
+	margin-right: 80px;
+}
+
+.DerechoAutor-Center a{
+	color: #eaeaea;
+}
+
+.DerechoAutor-Center a:hover{
+	color: #e97542;
+	text-decoration: underline;
+}
+
+

@@ -1,0 +1,892 @@
+
+/************************************************************************************
+--> GENERAL
+************************************************************************************/
+html, body {
+    height: 100%;
+    background: url(../img/bg_cemza.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+}
+p {
+	line-height: 1.4em;
+}
+a {
+	text-decoration: none;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+h2.sectionTitle {
+	font-weight: 400;
+	font-size: 2.2em;
+	padding: 0;
+	margin: 0;
+}
+h3 {
+	font-size: 1.6em;
+	padding: 0;
+	margin: 0;
+}
+/************************************************************************************
+--> MENU TOP
+************************************************************************************/
+#menuTop {
+	height: 70px;
+	width: 100%;
+	background: #f3f3f3;
+	border-bottom: 3px solid #a7a7a7;
+	position: fixed;
+	top: -90px;
+	-webkit-box-shadow: 0 3px 10px 1px rgba(0,0,0,0.2);
+	box-shadow: 0 3px 10px 1px rgba(0,0,0,0.2);
+	-webkit-transition: all 400ms ease-in;
+	-moz-transition: all 400ms ease-in;
+	-ms-transition: all 400ms ease-in;
+	-o-transition: all 400ms ease-in;
+	transition: all 400ms ease-in;
+	z-index: 9999;
+}
+#menuTop a {
+	color: #333;
+}
+#menuTop a:hover {
+	color: #ed1c24;
+}
+.menu-col{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 20px;
+	height: 50px;
+	border-left: 2px solid#ccc;
+}
+.menu-icon {
+	width: 7%;
+}
+#menu-list {
+	width: 50%;
+}
+#menu-list nav {
+	list-style-type: none;
+	text-transform: uppercase;
+}
+#menu-list nav li {
+	display: inline-block;
+	padding-top: 5px;
+	margin-right: 35px;
+}
+#menu-list nav li a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.95em;
+	font-weight: 500;
+
+}
+#menu-options {
+	width: 35%;
+}
+.menu-data {
+	width: 60%;
+	text-align: left;
+}
+.menu-data a {
+	display: block;
+	padding-left: 35px;
+	padding-bottom: 7px;
+	font-size: 0.85em;
+}
+.menu-data a.mail {
+	background: url(../img/icon_mail_top.png) no-repeat 10px 2px;
+}
+.menu-data a.phone {
+	background: url(../img/icon_phone_top.png) no-repeat 10px 2px;
+}
+.menu-social {
+	float: right;
+}
+.menu-social a {
+	padding: 5px;
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+}
+a.menu-social_fb:before {
+	content: url('../img/icon_fb_gray.png');
+}
+a.menu-social_in:before {
+	content: url('../img/icon_in_gray.png');
+}
+a.menu-social_ln:before {
+	content: url('../img/icon_ln_gray.png');
+}
+
+
+a.btn-lang {
+	display: block;
+	position: absolute;
+	top: 35px;
+	right: 35px;
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	margin-left: 20px;
+	margin-top: -5px;
+	border: 2px solid #ed1c24;
+	background-image: url('../img/flag_lang.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+a.btn-lang span {
+	color: #555;
+	display: block;
+	text-align: center;
+	width: 80px;
+	background-color: #d4d4d4;
+	padding: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	position: relative;
+	top: 55px;
+	z-index: 99;
+	right: 20px;
+	margin-top: 15px;
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+	transition: all 200ms ease-in;
+}
+a.btn-lang span.btn_pointer {
+	display: block;
+	width: 80px;
+	background-color: #d4d4d4;
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 50px;
+	right: 11px;
+	z-index: 98;
+}
+a.btn-lang:hover {
+	background-position: bottom;
+}
+a.btn-lang:hover span {
+	margin-top: 0;
+	opacity: 1;
+}
+
+.activa {
+	top: 0px;
+}
+/************************************************************************************
+--> MAIN
+************************************************************************************/
+
+#Main{
+  position: relative;
+  min-height: 100vh;
+}
+
+#Main:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1; }
+#MainWrapper {
+	/*max-width: 680px;*/
+	margin: auto;
+	padding: 45px;
+	position: relative;
+	top: 14%;
+	text-align: center;
+	z-index: 2;
+}
+#slogan {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.4em;
+	color: #fff;
+	margin-top: 20px;
+}
+#logo{
+	width: 360px;
+    height: 65px;
+	margin: 220px auto 10px auto;
+}
+#logo:before {
+	content: url('../img/logo_cemza_main.png');
+}
+.btn_scroll {
+	display: block;
+    width: 47.6px;
+    height: 47.6px;
+    border: 3px solid rgba(255,255,255,0.40);
+	margin: 0px auto;
+	margin-top: 120px;
+	position: relative;
+    left: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.btn_scroll:before
+{
+    content: "";
+	width: 30px;
+    height: 118px;
+	background: url(../img/arrow_down.png) no-repeat;
+	background-size: 100%;
+    margin:  0px auto;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+	right: 0px;
+}
+.btn_scroll:hover
+{
+    border: 3px solid rgba(255,255,255,1);
+}
+
+
+
+/************************************************************************************
+--> MAIN NAV
+************************************************************************************/
+
+#MainNav{
+	padding: 0;
+	margin-top: 100px;
+}
+
+#MainNav ul{
+	margin: 0;
+	padding: 0 0 0 40px;
+}
+
+#MainNav ul li a{
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-right: 45px;
+}
+
+#MainNav ul li a:hover{
+	color: #ed1c24;
+}
+#videosample {
+  display: none;
+}
+
+/************************************************************************************
+--> ABOUT
+************************************************************************************/
+
+
+#about {
+	padding: 10% 5%;
+	background: url('../img/bg_about.jpg') #f4f4f4 50% 0 no-repeat fixed;
+}
+#about h2 {
+	margin-bottom: 28px;
+}
+#about div {
+	width: 44%;
+}
+#collage img {
+	max-width: 100%;
+	height: auto;
+	margin-top: -15%;
+}
+#aboutText {
+	margin-left: 5%;
+}
+#aboutText p.introText {
+	font-size: 1.3em;
+	line-height: 1.3em;
+}
+.about-pleca {
+	margin-bottom: 20px;
+}
+a.btn_playVid {
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	width: 130px;
+	color: #333;
+	font-weight: 500;
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	border: 3px solid #999;
+	padding: 5px 5px 5px 33px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	background: url('../img/btn_play.png') no-repeat 5px 5px;
+	margin-top: 70px;
+
+}
+a.btn_playVid:hover {
+	color: #fff;
+	background: url('../img/btn_play_w.png') #ed1c24 no-repeat 12px 5px;
+}
+
+/************************************************************************************
+--> BROCHURE
+************************************************************************************/
+
+#brochure {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	padding: 6%;
+	background: url('../img/bg_brochure.jpg') #b1141c 50% 0 no-repeat fixed;
+}
+a.btn_download {
+	display: block;
+	width: 180px;
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	border: 3px solid #fff;
+	padding: 5px 5px 5px 33px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	background: url('../img/btn_dwnld.png') no-repeat 25px 9px;
+	margin-top: 70px;
+
+}
+a.btn_download:hover {
+	background-color: #444;
+	color: #ed1c24;
+	border: 3px solid #ed1c24;
+}
+
+/************************************************************************************
+--> EMPRESAS
+************************************************************************************/
+#empresas {
+	color: #fff;
+	background-color: rgba(0,0,0,0.4);
+}
+#empresas h2 {
+	padding-top: 120px;
+}
+#pleca_empresas{
+	padding: 70px 0;
+}
+#empresas ul {
+	margin: 0 0 0 -3px !important;
+	padding: 0 !important;
+	list-style-type: none !important;
+}
+#empresas ul li {
+	width: 24.9%;
+	margin-top: -4px;
+	margin-right: -4px;
+	overflow: hidden;
+}
+.item_empresas {
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+	cursor: pointer;
+}
+.item_empresas:hover {
+	-webkit-transform: scale(1.09);
+    -o-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    transform: scale(1.09);
+}
+	
+.marinsa {
+	background-color: #102c77;
+	background-image: url('../img/logo_marinsa.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.marinsa:hover {
+	background-color: #1c76ff;
+}
+.maren {
+	background-color: #00b287;
+	background-image: url('../img/logo_maren.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.maren:hover {
+	background-color: #08e5b0;
+}
+.oceamar {
+	background-color: #262262;
+	background-image: url('../img/logo_oceamar.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.oceamar:hover {
+	background-color: #1f15b4;
+}
+.bistro {
+	background-color: #c12626;
+	background-image: url('../img/logo_bistro.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bistro:hover {
+	background-color: #f32020;
+}
+.presco {
+	background-color: #e97542;
+	background-image: url('../img/logo_presco.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.presco:hover {
+	background-color: #ff9454;
+}
+.enermar {
+	background-color: #0585bd;
+	background-image: url('../img/logo_enermar.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.enermar:hover {
+	background-color: #07abf3;
+}
+.martel {
+	background-color: #49535b;
+	background-image: url('../img/logo_martel.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.martel:hover {
+	background-color: #6b7c89;
+}
+.varaderos {
+	background-color: #0096d6;
+	background-image: url('../img/logo_varaderos.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.varaderos:hover {
+	background-color: #23bdff;
+}
+
+
+/************************************************************************************
+--> CONTACTO
+************************************************************************************/
+
+#contacto{
+	color: #fff;
+	background: rgba(45,45,45,0.7) url('../img/bg_contact.jpg') 50% 0 no-repeat fixed;
+	padding-top: 120px;
+	padding-bottom: 95px;
+	margin-top: -5px;
+}
+#contacto h2 {
+	margin-bottom: 20px;
+}
+#contacto p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	margin: 55px auto 60px auto !important;
+}
+.col_contacto {
+	width: 42%;
+}
+
+input {
+	display: block;
+	border: none;
+	border-bottom: 3px solid #ed1c24;
+	background: none;
+	color: #ccc;
+	width: 550px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 16px auto 0 auto;
+}
+textarea {
+	display: block;
+	border: none;
+	border-bottom: 3px solid #ed1c24;
+	background: none;
+	color: #ccc;
+	width: 550px;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 16px auto 0 auto;
+}
+textarea::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+  color: #ccc;  
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+  color: #ccc;  
+}
+
+textarea:-ms-input-placeholder {
+  color: #ccc;  
+}
+
+textarea::placeholder {
+  color: #ccc;  
+}
+
+input[type=button] {
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
+	width: 240px;
+	color: #d4d4d4;
+	text-align: center;
+	height: 44px;
+	line-height: 24px;
+	border: 3px solid #ed1c24;
+	padding: 5px 5px 5px 54px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	background: url('../img/icon_send.png') no-repeat 25px 12px;
+	margin-top: 50px;
+	cursor: pointer;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+input[type=button]:hover {
+	background: url('../img/icon_send_w.png') #ed1c24 no-repeat 45px 12px;
+	color: #fff;
+}
+.confirm {
+	display: none;
+	margin-top: 20px;
+}
+.data_contacto {
+	padding: 40px 0 0 140px;
+}
+.data_contacto a{
+	color: #fff;
+	text-align: left;
+	padding-left: 80px;
+	height: 40px;
+	line-height: 35px;
+}
+.data_contacto a:hover {
+	color: #ed1c24;
+	text-decoration: underline;
+}
+a.phonelink {
+	background: url('../img/icon_phone.png') no-repeat 45px 12px;
+	font-size: 1.3em;
+}
+a.maillink {
+	background: url('../img/icon_mail.png') no-repeat 45px 12px;
+}
+span.address{
+	display: block;
+	color: #fff;
+	text-align: left;
+	padding-left: 80px;
+	height: 120px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 1em !important;
+	margin-top: 0 !important;
+	background: url('../img/icon_home.png') no-repeat 45px 8px;
+}
+.social_icons {
+	padding: 30px 0 0 40px;
+}
+.social_icons a {
+	padding: 5px;
+	width: 24px;
+	height: 24px;
+	margin-right: 20px;
+}
+a.social_fb:before {
+	content: url('../img/icon_fb_red.png');
+}
+a.social_in:before {
+	content: url('../img/icon_in_red.png');
+}
+a.social_ln:before {
+	content: url('../img/icon_ln_red.png');
+}
+
+/************************************************************************************
+--> MAPA
+************************************************************************************/
+#frame_map {
+	width: 100%;
+	height: 400px;
+}
+#map {
+	
+}
+#mapContent {
+	width: 500px;
+	color: #444;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border-top: 5px solid red;
+}
+#mapHeading {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1.3em;
+}
+#mapContent img {
+	display: block;
+	width: 200px;
+	height: 125px;
+	float: left;
+	margin-right: 25px;
+}
+#mapContent p {
+	margin: 10px 0;
+}
+/************************************************************************************
+--> FOOTER
+************************************************************************************/
+
+footer {
+	background: #2c2c2c;
+	color: #ccc;
+	padding: 28px;
+	height: 32px;
+	line-height: 20px;
+	font-size: 0.8em;
+	text-align: right;
+}
+footer a{
+	color: #ed1c24;
+}
+footer img {
+	float: left;
+	opacity: 0.5;
+}
+footer span {
+	margin-right: 100px;
+}
+
+/************************************************************************************
+--> LAYOUT EMPRESAS
+************************************************************************************/
+.project_nav {
+	padding: 9px;
+	height: 55px;
+	background: #333;
+	text-align: center;
+	color: #ccc;
+	text-transform: uppercase;
+	position: relative;
+}
+.nav_arrow {
+	display: inline-block;
+	width: 50px;
+	height: 55px;
+}
+.nav_left {
+	float: left;
+	background: url('../img/arrow_left.png') no-repeat center center;
+	opacity: 0.5;
+}
+.nav_right {
+	float: right;
+	background: url('../img/arrow_right.png') no-repeat center center;
+	opacity: 0.5;
+}
+.nav_box {
+	position: absolute;
+	top: 5px;
+	left: 47%;
+	font-size: 0.9em;
+	display: block;
+	height: 50px;
+	line-height: 104px;
+	background: url('../img/icon_mosaic.png') no-repeat center center;
+	opacity: 0.6;
+}
+.nav_arrow, .nav_box{
+	cursor: pointer;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.nav_arrow:hover, .nav_box:hover{
+	opacity: 1;
+}
+#header_empresa {
+	height: 250px;
+	line-height: 250px;
+}
+#contenido_empresa {
+	background: #e7e7e7;
+	padding: 5%;
+	vertical-align: top;
+	color: #333;
+	text-align: left;
+}
+#contenido_empresa div {
+	display: inline-block;
+	vertical-align: top;
+	width: 46%;
+	margin-right: 3%;
+}
+p.introText {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	margin-top: 0;
+}
+ul#lista_servicios {
+	width: 98%;
+	padding: 0;
+	list-style-type: none;
+}
+ul#lista_servicios li {
+	margin: 0 0 25px 0;
+	padding: 0;
+	width: 32%;
+	height: 90px;
+	text-align: center;
+	overflow: visible;
+}
+ul#lista_servicios li span {
+	display: block;
+	margin: auto;
+}
+ul#lista_servicios li span.icon {
+	height: 65px;
+}
+ul#lista_servicios li span.text {
+
+}
+a.link-empresa {
+	margin: 40px auto;
+	padding: 9px;
+	border: 3px solid #808e92;
+	color: #333;
+	width: 220px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	background: url('../img/link_externo.png') no-repeat 16px 8px;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+a.link-empresa:hover {
+	background: url('../img/link_externo_w.png') #808e92 no-repeat 35px 8px;
+	color: #fff;
+}
+
+/************************************************************************************
+--> STYLES EMPRESAS
+************************************************************************************/
+
+/* MARINSA */
+.info_marinsa {
+	background: url('../img/bg_marinsa.jpg') no-repeat center center;
+}
+.info_marinsa h3:before {
+	content: url('../img/logo_marinsa.png');
+}
+
+/* maren */
+.info_maren {
+	background: url('../img/bg_maren.jpg') no-repeat center center;
+}
+.info_maren h3:before {
+	content: url('../img/logo_maren_2.png');
+}
+/* oceamar */
+.info_oceamar {
+	background: url('../img/bg_oceamar.jpg') no-repeat center center;
+}
+.info_oceamar h3:before {
+	content: url('../img/logo_oceamar.png');
+}
+/* bistro */
+.info_bistro {
+	background: url('../img/bg_bistro.jpg') no-repeat center center;
+}
+.info_bistro h3:before {
+	content: url('../img/logo_bistro.png');
+}
+/* presco */
+.info_presco {
+	background: url('../img/bg_presco.jpg') no-repeat center center;
+}
+.info_presco h3:before {
+	content: url('../img/logo_presco_2.png');
+}
+/* enermar */
+.info_enermar {
+	background: url('../img/bg_enermar.jpg') no-repeat center center;
+}
+.info_enermar h3:before {
+	content: url('../img/logo_enermar.png');
+}
+/* martel */
+.info_martel {
+	background: url('../img/bg_martel.jpg') no-repeat center center;
+}
+.info_martel h3:before {
+	content: url('../img/logo_martel.png');
+}
+/* varaderos */
+.info_varaderos {
+	background: url('../img/bg_varaderos.jpg') no-repeat center center;
+}
+.info_varaderos h3:before {
+	content: url('../img/logo_varaderos.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,284 @@
+html, body
+{
+  	height: 100%;
+}
+
+body
+{
+  	font: 16px 'open_san';  
+	color: #232634;
+	background-color: #dce8eb;
+	position: relative;
+}
+
+strong
+{
+  	font-family: 'open_sansbold';
+}
+
+em
+{
+	font-family: 'open_sansitalic';
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	color: #112c76;
+ 	font: 32px 'ralewaymedium';	
+}
+
+h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong
+{
+	font-family: 'ralewaybold';
+}
+
+a, a:before, a:after
+{
+	color: #ffffff;
+ 	text-decoration: none;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+a:hover, a:hover:before, a:hover:after
+{	
+	cursor: pointer;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+span, span:before, span:after
+{
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+span:hover, span:hover:before, span:hover:after
+{	
+	cursor: pointer;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+input, textarea
+{
+	width: 400px;
+    height: 37px;
+    font: 16px 'open_san';
+    color: #0e1b3e;
+    background: none;
+    border: 0px;
+    border-bottom: 3px solid #69c2cb;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 1px;
+    margin-bottom: 39px;
+}
+
+textarea
+{
+	height: 101px;
+	padding-top: 6px;
+	margin-bottom: 2px;
+	resize: none;
+}
+
+input[type="number"]
+{
+    width: 35px;
+    height: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    border: 2px solid #A6244A;
+}
+
+input:focus, textarea:focus, .inputSeleccionado
+{
+	outline: 0;
+	border-color: #ef662f;
+}
+
+input[type="checkbox"]
+{
+	width: auto;
+	height: auto;
+	margin: 0px;
+	margin-right: 9px;
+	vertical-align: middle;
+}
+
+/******************************************************Placeholder******************************************************/
+
+::-webkit-input-placeholder
+{
+ 	color: #000000;
+}
+
+::-o-input-placeholder
+{
+ 	color: #000000;
+}
+
+::-ms-input-placeholder
+{
+ 	color: #000000;
+}
+
+:-moz-input-placeholder
+{
+ 	color: #000000;
+}
+
+::-moz-input-placeholder
+{
+ 	color: #000000;
+}
+
+/************************************************************************************/
+
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+
+/************************************************************************************/
+
+.MainNav
+{
+	width: 188px;
+	height: 100%;
+	min-height: 650px;
+	background-color: #0e1b3e;
+	position: fixed;
+	z-index: 1;
+}
+
+.MainNav-Logo{
+	height: 121px;
+	background: #0d2979 url(../images/logo.png) center no-repeat;
+	margin-top: -121px;
+}
+
+.MainNav-List{
+	margin-top: 116px;
+	background: url(../images/borderListMenu.png) bottom center no-repeat;
+	padding-bottom: 16px;
+}
+
+.MainNav-List.Ajuste{
+	margin-top: 68px;
+}
+
+.MainNav-LinkList{
+	width: 100%;
+	font: 18px 'ralewaybold';
+	line-height: 18px;
+	padding: 13px 0px 9px 30px;
+    border-left: 10px solid #0e1b3e;
+}
+
+.MainNav-LinkList:hover, .MainNav-LinkList.activo{
+	color: #60c2cd;
+	background-color: #19378e;
+	border-color: #65c2cc;
+}
+
+
+.MainNav-BtnMaren{
+	width: 96px;
+	color: #fff;
+	font: 16px 'ralewaysemibold';
+	background: url(../images/EnlaceMaren.png) right 5px no-repeat;
+	margin-top: 25px;
+	margin-left: 29px;
+	padding-right: 40px;
+	position: relative;
+}
+
+.MainNav-BtnMaren:hover {
+	color: #64c2cc;
+}
+
+.MainNav-BtnMaren:before{
+	content: "";
+	width: 14px;
+	height: 14px;
+	background: url(../images/flechaEnlaceMaren.png) no-repeat;
+	position: absolute;
+	top: 4px;
+    right: -4px;
+}
+
+.MainNav-BtnMaren:hover:before{
+	
+    right: -6px;
+}
+
+.MainNav-ListIdiomas{
+	left: 30px;
+	bottom: 10%;
+}
+
+.MainNav-LinkIdioma{
+	font: 16px 'ralewaymedium';
+}
+
+.MainNav-LinkIdioma:hover, .MainNav-LinkIdioma.activo{
+	color: #60c2cd;
+}
+
+/************************************************************************************/
+
+.HeaderInterior{
+	height: 297px;
+	background: url(../images/fondos/bgHeaderAcercaDeInterior.jpg) no-repeat;
+}
+
+.HeaderInterior-Center{
+	width: 980px;
+	padding-top: 165px;
+	padding-left: 188px;
+}
+
+.HeaderInterior-Title{
+	color: #ffffff;
+	font-size: 48px;
+}
+
+.BorderInterior{
+	width: 56%;
+	height: 9px;
+	background-color: #65c2cc;
+}
+
+/************************************************************************************/
+
+
+
+.AcercaDeInterior-Center{
+	width: 980px;
+	padding-left: 188px;
+}

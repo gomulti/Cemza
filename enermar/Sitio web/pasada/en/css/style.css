@@ -1,0 +1,920 @@
+
+/********************************************************************************************/
+
+html, body
+{
+  	height: 100%;
+}
+
+body
+{
+  	font: 17.05px 'open_san';  
+  	color: #ffffff;
+	/*background-color: #1b5973;*/
+	/*background-color: #fff;*/
+  	line-height: 16px;
+	position: relative;
+}
+
+strong
+{
+  	font-family: 'open_sansbold';
+}
+
+em
+{
+	font-family: 'open_sansitalic';
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	color: #fff;
+ 	font: 43.24px 'open_sanslight';
+}
+
+h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong
+{
+	font-family: 'open_sanssemibold';
+}
+
+a
+{
+ 	color: #ffffff;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+a:hover 
+{	
+	cursor: pointer;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+input, textarea
+{
+	width: 95.2%;
+	height: 36px;
+	font: 14px 'open_san';
+	color: #000000;
+	background-color: rgba(255,255,255,0.60);
+	border: 2px solid #4fe0fe;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 12px;
+	margin-bottom: 15px;
+}
+
+textarea
+{
+	height: 131px;
+	padding-top: 6px;
+	margin-bottom: 2px;
+	resize: none;
+}
+
+input:focus, textarea:focus, .inputSeleccionado
+{
+	outline: 0;
+	border-color: #0093be;
+}
+
+/******************************************************Placeholder******************************************************/
+
+::-webkit-input-placeholder
+{
+ 	color: #000000;
+}
+
+::-o-input-placeholder
+{
+ 	color: #000000;
+}
+
+::-ms-input-placeholder
+{
+ 	color: #000000;
+}
+
+:-moz-input-placeholder
+{
+ 	color: #000000;
+}
+
+::-moz-input-placeholder
+{
+ 	color: #000000;
+}
+
+/********************************************************************************************/
+
+.Header
+{
+	height: 869px;
+	background: url(../images/fondos/header.jpg) no-repeat;
+	position: relative;
+}
+
+.Header-Logo
+{
+	width: 253px;
+	height: 108px;
+	background: url(../images/logo.png) no-repeat;
+  	margin-top: 120px;
+	margin-bottom: 75px;
+}
+
+.Header-Title
+{
+	width: 256px;
+	font: 31.55px 'open_sanslight';
+	color: #fff;
+	line-height: 35.55px;
+}
+
+.Header-Title strong
+{
+	font-family: 'open_sanssemibold';
+}
+
+.Header-Title span
+{
+	font-size: 26.29px;
+}
+
+.Header-Barra
+{
+	height: 119px;
+	background-color: rgba(0,0,0,0.70);
+	position: absolute;
+	bottom: 63px;
+}
+
+.Header-Center
+{
+	width: 350px;
+    font-size: 19px;
+    line-height: 23px;
+	padding-top: 24px;
+}
+
+.Header-colMarine
+{
+	width: 177px;
+}
+
+.Header-TitleCol
+{
+	font-size: 23px;	
+}
+
+.Header-Azul
+{
+	display: block;
+	color: #61deff;
+	font: 32.18px 'open_sanssemibold';
+	line-height: 37.18px;
+}
+
+.Header-colPuesto
+{
+	width: 142px;
+}
+
+.Header-colClima
+{
+	width: 265px;
+    margin-left: 187px;
+    margin-top: -44px;
+    font: 16px 'open_sanslight';
+}
+
+.Header-icoClima
+{
+  	color: #fff;
+  	font-family: weather;
+  	font-size: 100px;
+  	font-weight: normal;
+  	font-style: normal;
+  	line-height: 1.0;
+    margin-right: 23px;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+/************************************************************************************/
+
+.contentMenu
+{
+	height: 148px;
+	background: url(../images/fondos/menu.png) no-repeat;
+	position: fixed;
+	z-index: 200;
+}
+
+.contentMenu.ActivarMenu
+{
+	top: 0px;
+}
+
+.contentMenu-Center
+{
+	width: 566px;
+}
+
+.contentMenu-Logo
+{
+	/*margin-top: 23px;*/
+	margin-right: 50px;
+}
+
+.MainMenu
+{
+	width: 640px;
+	padding-top: 32px;
+	line-height: 15px;
+}
+
+.MainMenu-List
+{
+	margin-top: 20px;
+}
+
+.MainMenu-Item
+{
+	margin-right: 20px;
+}
+
+.MainMenu-Item a
+{
+	font-size: 14px;
+	padding-bottom: 9px;
+	padding-left: 4px;
+  	padding-right: 3px;
+	position: relative;
+}
+
+.MainMenu-Item a:hover, .MainMenu-Item a.activo
+{
+    border-bottom: 4px solid #45bbf6;
+}
+
+.MainMenu-Item a:hover:before,.MainMenu-Item a.activo:before
+{
+	visibility: visible;
+}
+
+.contentMenu-Idioma
+{
+	width: 31px;
+	height: 31px;
+	background: url(../images/ico-en.jpg) bottom no-repeat;
+	border: 3px solid #2dacd7;
+	margin-top: 10px;
+}
+
+.contentMenu-Idioma:hover
+{
+	background-position: top;
+	border-color: #0093be;
+	-webkit-transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);
+}
+
+
+/************************************************************************************/
+
+.About
+{
+	height: 832px;
+	background: url(../images/fondos/about.jpg) no-repeat;
+	position: relative;
+}
+
+.About-Img
+{
+	position: absolute;
+    right: 0px;
+    bottom: -151px;
+    z-index: 2;
+}
+
+.About-Center
+{
+	width: 680px;
+}
+
+.About-Title
+{
+	font-size: 42.45px;
+    padding-top: 143px;
+	margin-bottom: 50px;
+}
+
+.About-Title strong
+{
+	font-size: 44.95px;
+}
+
+.About-Info
+{
+	width: 392px;
+    font-size: 19px;
+    line-height: 20px;
+	margin-bottom: 32px;
+	position: relative;
+    z-index: 2;
+}
+
+.About-Info .azul
+{
+	color: #4bb9f2;
+}
+
+.About-ImgCemza:hover
+{
+	-webkit-transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);	
+}
+
+.About-TextCemza
+{
+	width: 380px;
+    font-size: 14px;
+    margin-left: 24px;
+}
+
+.About-Ibia
+{
+	margin-top: 30px;
+    font-size: 14px;
+}
+
+.About-Ibia a:hover
+{
+	text-decoration: underline;
+}
+
+.About-ImgIbia
+{
+	margin-top: 10px;
+}
+
+.About-ImgIbia a:hover img
+{
+	-webkit-transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);
+}
+
+/***************************************************************************/
+
+.TextAbout
+{
+	height: 121px;
+	background-color: #fff;
+	border-top: 12px solid #00457e;
+}
+
+.TextAbout-Center
+{
+	width: 832px;
+	color: #02497c;
+	font-size: 22.26px;
+	line-height: 23.43px;
+	padding-top: 39px;
+	position: relative;
+    z-index: 2;
+}
+
+/**************************************************************************/
+
+.WeOffer
+{
+	height: 1497px;
+	background-color: #003e72;
+	position: relative;
+}
+
+.WeOffer-Center
+{
+	width: 840px;
+}
+
+.WeOffer-List
+{
+	padding-top: 177px;
+    padding-left: 30px;
+}
+
+.WeOffer-Item
+{
+    width: 134px;
+	color: #b0f3ff;
+	font-size: 14.15px;
+	line-height: 17.08px;
+    margin-right: 80px;
+}
+
+.WeOffer-Ico
+{
+	width: 108px;
+	height: 108px;
+	background: url(../images/ico-marine.png) bottom no-repeat;
+	border: 3px solid #63c8d6;
+	margin-bottom: 15px;
+}
+
+.WeOffer-Ico--Transportacion
+{
+	background: url(../images/ico-transportacion.png) bottom no-repeat;
+}
+
+.WeOffer-Ico--Distribucion
+{
+	background: url(../images/ico-distribucion.png) bottom no-repeat;
+}
+
+.WeOffer-Ico--Embarcacion
+{
+	background: url(../images/ico-embarcacion.png) bottom no-repeat;
+}
+
+.WeOffer-Item:hover, .WeOffer-Item.activo
+{
+	color: #fff;
+}
+
+.WeOffer-Item:hover .WeOffer-Ico, .WeOffer-Item.activo .WeOffer-Ico
+{
+	background-position: top !important;
+	border-color: #ffffff;
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.WeOffer-ContentSlides
+{
+    position: absolute;
+    bottom: 125px;
+}
+
+.WeOffer-ColSlider
+{
+	width: 400px;
+    margin-right: 35px;
+}
+
+.WeOffer-Title
+{
+	color: #49e3ff;
+	font: 30px 'open_sansbold';
+	line-height: 30px;
+}
+
+.WeOffer-Slider
+{
+	height: 296px;
+    font-size: 14px;
+	margin-top: 36px;
+    position: relative;
+}
+
+.WeOffer-Slider:before
+{
+	content:"";
+	width: 400px;
+	height: 35px;
+	background: url(../images/sombraSlider.png) no-repeat;
+	position: absolute;
+    bottom: -35px;
+    left: 0px;
+}
+
+.WeOffer-Slider ul li
+{
+ 	z-index: inherit !important;
+}
+
+.WeOffer-Barra
+{
+	width: 400px;
+	height: 83px;
+	background-color: rgba(0,0,0,0.63);
+    -webkit-border-radius: 0em 0em 0.5em 0.5em;
+	-o-border-radius: 0em 0em 0.5em 0.5em;
+	-moz-border-radius: 0em 0em 0.5em 0.5em;
+	-ms-border-radius: 0em 0em 0.5em 0.5em;
+	border-radius: 0em 0em 0.5em 0.5em;
+	position: absolute;
+	bottom: 0px;
+	z-index: 10;
+}
+
+/************************************************************************************/
+
+.EstamosServirle
+{
+	min-height: 1060px;
+	background: url(../images/fondos/contacto.jpg) no-repeat;
+	overflow: hidden;
+	position: relative;
+}
+
+.EstamosServirle-Center
+{
+	width: 792px;
+	font-size: 17.05px;
+	line-height: 18.19px;
+}
+
+.EstamosServirle-Title
+{
+	margin-top: 154px;
+ 	margin-bottom: 61px;
+}
+
+.EstamosServirle-Info
+{
+	width: 565px;
+}
+
+.EstamosServirle-DatosContacto
+{
+	width: 368px;
+	margin-top: 52px;
+}
+
+.EstamosServirle-DatosContacto p
+{
+	margin-bottom: 19px;
+}
+
+.EstamosServirle-DatosContacto strong, .EstamosServirle-DatosContacto a
+{
+	color: #73dcff;
+}
+
+.EstamosServirle-DatosContacto a:hover
+{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.EstamosServirle-DatosContacto-Atencion
+{
+	font-size: 18px;
+	margin-bottom: 16px;
+  	letter-spacing: 1px;
+}
+
+.EstamosServirle-DatosContacto-Hora
+{
+	font-size: 36px;
+	background: url(../images/ico-tel.png) no-repeat;
+	padding-bottom: 79px;
+	padding-left: 33px;
+}
+
+.EstamosServirle-Ubicacion
+{
+  	margin-bottom: 54px;
+}
+
+.EstamosServirle-Ubicacion-Title
+{
+	font-size: 21.6px;
+  	margin-bottom: 11px;
+}
+
+.EstamosServirle-Ubicacion-List li
+{
+	line-height: 22px;
+	margin-bottom: 16px;
+}
+
+.EstamosServirle-Formulario
+{
+	width: 343px;
+  	margin-top: 66px;
+}
+
+.EstamosServirle-Formulario-btnOnline
+{
+	margin-bottom: 106px;
+	-webkit-text-shadow: -1px 0px 1px #a9e9ff;
+  	-o-text-shadow: -1px 0px 1px #a9e9ff;
+  	-moz-text-shadow: -1px 0px 1px #a9e9ff;
+  	-ms-text-shadow: -1px 0px 1px #a9e9ff;
+  	text-shadow: -1px 0px 1px #a9e9ff;
+	behavior: url('PIE/PIE.htc');
+}
+
+.EstamosServirle-Formulario #btnSend
+{
+    width: 100%;
+  	height: 35px;
+  	font: 24px 'open_san';
+	color: #fff;
+  	padding-top: 5px;
+  	padding-bottom: 0px;
+  	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.EstamosServirle-Formulario #btnSend:hover
+{
+	background-color: #0585bd;
+}
+
+.EstamosServirle-Aviso
+{
+	display: none;
+	padding: 10px;
+  	border: 1px dashed #fff;
+	margin-bottom: 20px;
+}
+
+.EstamosServirle-Aviso strong
+{
+  	font-size: 20px;
+ 	color: #73dcff;
+	margin-bottom: 5px;
+}
+
+/************************************************************************************/
+
+.Empresas
+{
+	/*height: 713px;
+	background-color: #1c2228;*/
+	padding:0px 20px;
+	position: relative;
+}
+
+.Empresas-Logo
+{
+	/*padding-top: 108px;*/
+	padding-bottom: 46px;
+}
+
+.Empresas-Info
+{
+	font-size: 17px;
+	line-height: 20px;
+	margin-bottom: 54px;
+}
+
+.Empresa-List
+{
+	width: 795px;
+}
+
+.Empresa-List img
+{
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.Empresa-List #imgPetronaval
+{
+	margin-left: 120px;
+    margin-right: 143px;
+}
+
+.Empresa-List #imgEnermar
+{
+	margin-left: 27px;
+}
+
+.Empresa-List #imgPresco
+{
+	margin-left: 155px;
+    margin-right: 175px;
+}
+
+.Empresa-List #imgMartel
+{
+	margin-left: 27px;
+}
+
+.Empresa-List #imgOceamar
+{
+    margin-left: 141px;
+    margin-right: 160px;
+}
+
+.Empresa-List img:hover
+{
+	-webkit-transform: translatey(-10px) scale(1.2);
+	-o-transform: translatey(-10px) scale(1.2);
+	-moz-transform: translatey(-10px) scale(1.2);
+	-ms-transform: translatey(-10px) scale(1.2);
+	transform: translatey(-10px) scale(1.2);  	
+	behavior: url('PIE/PIE.htc');
+}
+
+/*****************************************************************************************/
+
+.Footer
+{
+	font-size: 10px;
+	position: absolute;
+	margin: 0px auto;
+  	left: 0;
+  	right: 0;
+  	bottom: 40px;
+}
+
+.Footer a:hover
+{
+	color: #2dacd7;
+	text-decoration: underline;
+}
+
+/***********************************************************************************/
+
+.ContentModal
+{
+	width: 1130px;
+	height: 444px;
+	overflow: hidden;
+}
+
+.ContentModal-Img
+{
+	margin-right: 63px;
+}
+
+.ContentModal-Info
+{
+	width: 315px;
+}
+
+.ContentModal-Title
+{
+	font: 25px 'open_san';
+	color: #3fc5e1;
+  	padding-top: 98px;
+	padding-bottom: 17px;
+}
+
+.ContentModal-Descargar
+{
+  	font-size: 16.85px;
+  	line-height: 32px;
+  	color: #3cbad4;
+  	margin-top: 22px;
+}
+
+.ContentModal-Descargar-Flecha
+{
+	width: 29px;
+	height: 29px;
+	border: 2px solid #3fc5e1;
+	background: url(../images/embarcaciones/icoFlecha.png) center no-repeat;
+	margin-left: 10px;
+}
+
+.ContentModal-Descargar:hover
+{
+	color: #ff743c;
+}
+
+.ContentModal-Descargar:hover .ContentModal-Descargar-Flecha
+{
+	background-position-y: 7px;
+}
+
+/********************************************************************************************/
+
+.Content360
+{
+	width: 770px;
+	height: 480px;
+	border: 13px solid rgba(255,255,255,0.05);
+}
+
+/********************************************************************************************/
+
+/*@media only screen and (min-width: 1144px)
+{
+	.u-imagenFondo
+	{
+		background-size: 100% 100% !important;
+	}
+}*/
+
+/*@media only screen and (min-width: 1175px)
+{*/
+	.u-imagenFondo
+	{
+		background-size: 100% 100% !important;
+	}
+	
+	.u-imagenFondo100
+	{
+		background-size: 100% !important;
+	}
+/*}*/
+
+/*@media only screen and (max-width: 1143px)
+{
+	.u-imagenFondo, .u-imagenFondo100
+	{
+		background-size: cover !important;
+	}
+}*/
+
+
+/************************************************************************************************************/
+
+.VideoCemza
+{
+	width: 700px;
+	height: 400px;
+}
+
+.Header-video
+{
+	width: 128px;
+	height: 46px;
+	float: right;
+	margin-right: 310px;
+    margin-top: -300px;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+
+}
+
+.Video-Watch
+{
+	font: 16.32px 'open_sansbold';
+	color: #7f7f7f;
+	padding-top: 12px;
+}

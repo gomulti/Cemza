@@ -1,0 +1,411 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #069;
+}
+
+body {
+	background-color: #212121;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+h2{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	color: #069;
+}
+h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #688BA5;
+}
+.size{
+	width: 900px;
+	
+}
+.centerdiv{
+	margin-left:auto;
+	margin-right:auto;
+}
+.header {
+	background-image: url(images/bg-header.jpg);
+	background-repeat: repeat-x;
+	height: 60px;
+}
+.navbar {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.logo-header   {
+	float: left;
+	margin-right: 25px;
+}
+.nav-menu ul {
+	list-style-type: none;
+	padding-top: 20px;
+}
+.nav-menu ul li a {
+	display: block;
+	float: left;
+	margin-right: 25px;
+	color: #CCC;
+}
+.nav-menu ul li a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+.boton-language {
+	float: right;
+	padding-top: 13px;
+}
+.slider-wrapper {
+	background-color: #0585BD;
+	background-image: url(images/bg-front.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 570px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+.wrap-front {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 290px;
+}
+.container-precio {
+	height: 20px;
+}
+.precio {
+	float: right;
+	width: 100px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	margin-right: 115px;
+	text-align: right;
+}
+.slider-inter {
+	background-color: #0585BD;
+	background-image: url(images/bg-slider.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 120px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+.title-inter {
+	background-image: url(images/bg-ttl-logo.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.content-front {
+	background-color: #FFF;
+	background-image: url(images/bg-content.jpg);
+	background-repeat: repeat-x;
+	height: 180px;
+}
+.fotos-front {
+	padding-top: 40px;
+	text-align: center;
+}
+.fotos-front img {
+	margin-right: 5px;
+}
+.logos-front-pemex {
+	text-align: center;
+	padding-top: 30px;
+}
+.logos-front-pemex img {
+	margin-right: 75px;
+}
+.data-inter {
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+.data-inter ul {
+	padding-left: 35px;
+}
+
+.content-inter {
+	background-color: #FFF;
+	background-image: url(images/bg-content.jpg);
+	background-repeat: repeat-x;
+	
+}
+.sidebar {
+	float: right;
+	height: 430px;
+	width: 280px;
+	margin-left: 50px;
+	background-image: url(images/bg-sidebar.png);
+	background-repeat: no-repeat;
+	padding: 10px;
+	text-align: center;
+}
+.sidebar form {
+	text-align: left;
+}
+.sidebar p {
+	text-align: left;
+}
+.oversize {
+	font-size: 14px;
+}
+.oversize strong {
+	color: #069;
+}
+.logos-footer {
+	background-image: url(images/bg-tile-footer.jpg);
+	background-repeat: repeat-x;
+	height: 83px;
+}
+/*============================*/
+/*=== Custom Slider Styles ===*/
+
+
+#slider {
+	width:900px;
+	height:240px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.column-front {
+	float: left;
+	height: 180px;
+	width: 298px;
+	background-image: url(images/bg-col-content.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.column-front h2 {
+	font-size: 18px;
+	margin-top: 25px;
+	margin-left: 20px;
+	display: block;
+	padding-left: 50px;
+	height: 25px;
+	margin-bottom: 10px;
+	line-height: 30px;
+}
+.column-front p {
+	margin-left: 70px;
+	margin-top: 15px;
+	display: block;
+	margin-right: 25px;
+}
+.column-front a span {
+	display: none;
+}
+.column-front a {
+	display: block;
+	background-image: url(images/btn-leermas.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 23px;
+	width: 98px;
+	margin-top: 10px;
+	margin-left: 70px;
+}
+.column-front a:hover {
+	background-position: bottom;
+}
+.column-last {
+	background-image: none;
+}
+.h2-quienes {
+	background-image: url(images/icon-quienes.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.h2-services {
+	background-image: url(images/icon-services.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.h2-instal {
+	background-image: url(images/icon-instalaciones.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.llamados-front {
+	background-color: #E2E2E2;
+	height: 150px;
+}
+.llamados{
+	float: left;
+	height: 150px;
+	width: 450px;
+}
+.llamados h2 {
+	margin-top: 30px;
+	margin-left: 170px;
+}
+.llamados p {
+	margin-top: 10px;
+	margin-left: 170px;
+	margin-right: 50px;
+}
+.llam-galeria{
+background-image: url(images/bg-front-galeria.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.llam-galeria a {
+	background-image: url(images/btn-vergaleria.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	display: block;
+	height: 23px;
+	width: 145px;
+}
+.llam-galeria a:hover {
+	background-position: bottom;
+}
+.llam-galeria a span {
+	display: none;
+}
+.llam-contacto{
+background-image: url(images/bg-front-contacto.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.llam-contacto a {
+	background-image: url(images/btn-contactanos.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	display: block;
+	height: 23px;
+	width: 145px;
+}
+.llam-contacto a:hover {
+	background-position: bottom;
+}
+.llam-contacto a span {
+	display: none;
+}
+.logos-foot-container {
+	background-image: url(images/bg-footer.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 83px;
+	width: 850px;
+}
+#footer_links {
+	list-style-type: none;
+	padding-top: 15px;
+}
+#footer_links li {
+	float: left;
+}
+#footer_links  li a{
+	display: block;
+	height: 49px;
+	width: 81px;
+	text-align: center;
+	line-height: 115px;
+	margin-left: 20px;
+	background-repeat: no-repeat;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #CCC;
+}
+#footer_links  li a.foot_marinsa{
+	background-image: url(images/sprite_marinsa.png);
+	background-position: top;	
+}
+#footer_links  li a.foot_marinsa:hover{
+	background-image: url(images/sprite_marinsa.png);
+	background-position: bottom;	
+}
+#footer_links  li a.foot_navymex{
+	background-image: url(images/sprite_navymex.png);
+	background-position: top;	
+}
+#footer_links  li a.foot_navymex:hover{
+	background-image: url(images/sprite_navymex.png);
+	background-position: bottom;	
+}
+#footer_links  li a.foot_petronaval{
+	background-image: url(images/sprite_petronaval.png);
+	background-position: top;	
+}
+#footer_links  li a.foot_petronaval:hover{
+	background-image: url(images/sprite_petronaval.png);
+	background-position: bottom;	
+}
+#footer_links  li a.foot_torza{
+	background-image: url(images/sprite_torza.png);
+	background-position: top;	
+}
+#footer_links  li a.foot_torza:hover{
+	background-image: url(images/sprite_torza.png);
+	background-position: bottom;	
+}
+#footer_links  li a.foot_varaderos{
+	background-image: url(images/sprite_varaderos.png);
+	background-position: top;	
+}
+#footer_links  li a.foot_varaderos:hover{
+	background-image: url(images/sprite_varaderos.png);
+	background-position: bottom;	
+}
+#footer_links  li a.foot_bistro{
+	background-image: url(images/sprite_bistro.png);
+	background-position: top;	
+}
+#footer_links  li a.foot_bistro:hover{
+	background-image: url(images/sprite_bistro.png);
+	background-position: bottom;	
+}
+#footer_links  li a.foot_presco{
+	background-image: url(images/sprite_presco.png);
+	background-position: top;	
+}
+#footer_links  li a.foot_presco:hover{
+	background-image: url(images/sprite_presco.png);
+	background-position: bottom;	
+}
+#footer_links  li a.foot_martel{
+	background-image: url(images/sprite_martel.png);
+	background-position: top;	
+}
+#footer_links  li a.foot_martel:hover{
+	background-image: url(images/sprite_martel.png);
+	background-position: bottom;	
+}
+.foot-data {
+	padding-top: 15px;
+	color: #CCC;
+}
+.foot-data .foot-cemza {
+	float: left;
+}
+.foot-data .foot-enermar {
+	float: right;
+}
+.foot-data a {
+	color: #FFF;
+}
+.foot-data span {
+	float: left;
+	font-size: 11px;
+	padding-top: 5px;
+	margin-left: 25px;
+}

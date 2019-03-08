@@ -1,0 +1,694 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen and (max-width: 1319px)
+{
+	.MainMenu-ItemList {
+		margin-right: 15px;
+	}
+
+	.MainMenu-Logo {
+		margin-right: 30px;
+	}
+
+	.HeaderMenu-Idioma--MainMenu {
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 1259px)
+{
+	.HeaderMenu-List li {
+		margin-right: 15px;
+	}
+
+	.HeaderMenu-Idioma {
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 1200px)
+{
+	.MainMenu-Logo {
+		margin-right: 15px;
+	}
+
+	.MainMenu-ItemList {
+		margin-right: 8px;
+	}
+}
+
+@media only screen and (max-width: 1170px)
+{
+	.DerechoAutor-Center {
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 1142px)
+{
+	.Header-Title {
+		font-size: 36px;
+	}
+
+	.HeaderMenu-ItemList {
+		font-size: 16px;
+	}
+
+	.MainMenu-ItemList {
+		font-size: 14px;
+	}
+
+	.Acreditaciones-Center {
+		width: 940px;
+	}
+
+	.wp-block-image img {
+		margin-left: 6px;
+		margin-right: 5px;
+	}
+}
+
+@media only screen and (max-width: 1108px)
+{
+	.QueOfrecemos-Center {
+		width: 994px;
+	}
+
+	.QueOfrecemos-ItemList {
+		margin-right: 3px;
+	}
+
+	.QueOfrecemos-Col {
+		margin-right: 0px;
+	}
+}
+
+@media only screen and (max-width: 1062px)
+{
+	.NuestrosServicios-Center {
+		width: 948px;
+	}
+
+	.NuestrosServicios-ItemList {
+		margin-right: 30px;
+	}
+}
+
+@media only screen and (max-width: 1042px)
+{
+	.MainMenu-Logo {
+		margin-right: 10px;
+	}
+
+	.MainMenu-Logo img{
+		width: 110px;
+	}
+
+	.HeaderMenu-List{
+		margin-top: 5px;
+	}
+
+	.HeaderMenu-ItemList {
+		font-size: 14px;
+	}
+
+	.MainMenu-ItemList {
+		font-size: 13px;
+	}
+
+	.HeaderMenu-Idioma {
+		margin-left: 2px;
+	}
+
+	.Header-Logo {
+		width: 286px;
+		height: 95px;
+		background-size: 100%;
+	}
+
+	.Header-Title {
+		font-size: 34px;
+	}
+}
+
+@media only screen and (max-width: 1020px)
+{
+	.Contacto-Center {
+		width: 840px;
+	}
+
+	.Contacto-Formulario {
+		width: 390px;
+	}
+}
+
+@media only screen and (max-width: 1008px)
+{
+	.QueOfrecemos {
+		padding-top: 340px;
+	}
+
+	.QueOfrecemos-Center {
+		width: 700px;
+	}
+
+	.QueOfrecemos-ItemList {
+		margin-right: 20px !important;
+	}
+
+	.QueOfrecemos-TxtOrgullo{
+		width: 85%;
+    	font-size: 17px;
+	}
+
+	.QueOfrecemos-TxtOrgullo br{
+		display: none;
+	}
+
+	.QueOfrecemos-Col {
+		font-size: 16px;
+		margin-right: 0px;
+	}
+	
+	.AlcanceOperativo {
+		padding-top: 240px;
+	}
+}
+
+@media only screen and (max-width: 962px)
+{
+	.NuestrosServicios-Center {
+		width: 750px;
+	}
+
+	.NuestrosServicios-ItemList {
+		margin-bottom: 50px;
+	}
+
+	.NuestrosServicios-Capacidad {
+		width: 80%;
+	}
+
+	.Acreditaciones {
+		padding-top: 200px;
+	}
+
+	.Acreditaciones-Center {
+		width: 740px;
+	}
+
+	.Acreditaciones-Title {
+		margin-bottom: 90px;
+	}
+
+	.Acreditaciones-Center ul {
+		width: 345px;
+	}
+
+	.Acreditaciones-Center ul li {
+		margin-bottom: 14px;
+	}
+
+	.wp-block-image {
+		margin-top: 50px;
+	}
+
+	.wp-block-image img {
+		margin-left: 9px;
+		margin-right: 9px;
+	}
+}
+
+@media only screen and (max-width: 937px)
+{
+	.MainMenu-Logo img {
+		width: 100px;
+	}
+
+	.MainMenu-ItemList {
+		font-size: 12px;
+		margin-right: 5px;
+	}
+
+	.HeaderMenu-List li {
+		margin-right: 8px;
+	}
+
+	.HeaderMenu-ItemList {
+		font-size: 13px;
+	}
+}
+
+
+@media only screen and (max-width: 860px)
+{
+	.MainMenu-Logo {
+		margin-right: 0px;
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		z-index: -1;
+	}
+
+	.MainMenu-Ocultar{
+		display: none !important;
+	}
+
+	.MainMenu-IcoMenu {
+		display: inline-block;	
+	}	
+
+	.MainMenu-List
+ 	{
+  		display: none;
+		width: 100%;
+		height: 100%;
+		background: #303351;
+		text-align: center;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-left: 0px;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		border-top: 1px solid #f6f6f6;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		position: fixed;
+		z-index: 9999;
+		top: 65px;
+    	left: 0px;
+		behavior: url("../PIE/PIE.htc");
+ 	}
+
+	.MainMenu-List li
+ 	{
+  		width:100%;
+	    background: none;
+  		margin-right:0px;
+ 	}
+  
+	.MainMenu-List li a
+ 	{
+  		display:block;
+  		width: 100%;
+		height: 35px;
+		font-size: 16px;
+		color: #ffffff !important;
+		background: #303351;
+		border-bottom: 0px;
+		padding: 2px;
+		padding-top: 6px;
+		padding-left: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.MainMenu-List li a:hover, .MainMenu li a.activo
+	{
+		background: #0085c0;
+	}
+
+	.MainMenu.seleccionar{
+  		display:block;
+	}
+
+
+	.HeaderMenu {
+		top: 20px;
+	}
+
+
+	.HeaderMenu-Idioma {
+		float: right;
+	}
+
+	.HeaderMenu-Idioma--MainMenu {
+		margin-top: -7px;
+		margin-right: 10px;
+	}
+
+
+
+
+
+
+	.HeaderMenu-IcoMenu {
+		display: inline-block;	
+	}	
+
+	
+	.HeaderMenu-List
+ 	{
+  		display: none;
+		width: 100%;
+		height: 100%;
+		background: #303351;
+		text-align: center;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-left: 0px;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		border-top: 1px solid #f6f6f6;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		position: fixed;
+		z-index: 9999;
+		top: 65px;
+    	left: 0px;
+		behavior: url("../PIE/PIE.htc");
+ 	}
+
+	.HeaderMenu-List li
+ 	{
+  		width:100%;
+	    background: none;
+  		margin-right:0px;
+ 	}
+  
+	.HeaderMenu-List li a
+ 	{
+  		display:block;
+  		width: 100%;
+		height: 35px;
+		font-size: 16px;
+		color: #ffffff !important;
+		background: #303351;
+		border-bottom: 0px;
+		padding: 2px;
+		padding-top: 6px;
+		padding-left: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.HeaderMenu-List li a:hover, .HeaderMenu li a.activo
+	{
+		background: #0085c0;
+	}
+
+	.HeaderMenu.seleccionar{
+  		display:block;
+	}
+	
+	.HeaderMenu-Idioma {
+		margin-left: 12px;
+		margin-right: 15px;
+	}
+
+
+
+	.Contacto-Center {
+		width: 700px;
+	}
+
+	.Contacto-Datos{
+		width: 310px;
+	}
+
+	.Contacto-List li p br{
+		display: none;
+	}
+
+	.Contacto-Formulario {
+		width: 350px;
+	}
+}
+
+@media only screen and (max-width: 780px)
+{
+	.Header-Center {
+		width: 90%;
+	}
+
+	.NuestrosServicios-Center {
+		width: 700px;
+	}
+
+	.Acreditaciones-Center {
+		width: 720px;
+	}
+
+	.Acreditaciones-Title {
+		margin-bottom: 50px;
+	}
+
+	.Acreditaciones-Center ul {
+		width: 320px;
+	}
+}
+
+@media only screen and (max-width: 760px)
+{
+	.DerechoAutor-Center figure{
+		display: block !important;
+		text-align: center;
+	}
+
+	.DerechoAutor-Center p {
+		display: block !important;
+		float: none;
+		text-align: center;
+	}
+}
+
+
+@media only screen and (max-width: 749px)
+{
+	.Nosotros-Center {
+		width: 92%;
+		padding-top: 100px;
+	}
+	
+	.QueOfrecemos {
+		padding-top: 240px;
+	}
+
+	.QueOfrecemos-Center {
+		width: 92%;
+	}
+
+	.QueOfrecemos-Title {
+		margin-bottom: 30px;
+	}
+
+	.QueOfrecemos-List{
+		display: inline-block;
+		width: 430px;
+		vertical-align: top;
+	}
+
+	.QueOfrecemos-ItemList {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.QueOfrecemos-ItemList div {
+		width: 350px;
+	}
+
+	.QueOfrecemos-TxtOrgullo {
+		margin-top: 30px;
+	}
+
+	.QueOfrecemos-Col {
+		margin-right: 0px;
+	}
+
+
+	.AlcanceOperativo-Center {
+		width: 92%;
+		font-size: 16px;
+	}
+
+
+	.BgFondo4 {
+		height: auto;
+		padding-bottom: 120px;
+	}
+	
+	.NuestrosServicios-Center {
+		width: 92%;
+	}
+
+	.NuestrosServicios-Txt {
+		font-size: 16px;
+		margin-bottom: 131px;
+	}
+
+	.NuestrosServicios-Capacidad {
+		font-size: 17px;
+		margin-top: 80px;
+	}
+
+	.Acreditaciones-Center {
+		width: 92%;
+	}
+
+	.Acreditaciones-Center ul {
+		width: 100%;
+		margin-right: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 720px)
+{
+	.Contacto {
+		height: auto;
+		padding-bottom: 80px;
+	}
+
+	.Contacto-Center {
+		width: 92%;
+	}
+
+
+
+	.Contacto-Formulario {
+		width: 100%;
+		margin-top: 60px;
+	}
+}
+
+
+@media only screen and (max-width: 654px)
+{
+	body {
+		font-size: 16px;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-size: 42px;
+	}
+
+	.QueOfrecemos {
+		padding-top: 170px;
+	}
+
+	.QueOfrecemos-Col {
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 40px;
+	}
+
+	.QueOfrecemos-TxtOrgullo {
+		font-size: 15px;
+	}
+
+	.AlcanceOperativo {
+		padding-top: 160px;
+	}
+
+	.NuestrosServicios-ItemList {
+		margin-right: 0px;
+	}
+
+	.NuestrosServicios-Capacidad {
+		width: 72%;
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 500px)
+{
+	h1, h2, h3, h4, h5, h6 {
+		font-size: 38px;
+	}
+
+	.NuestrosServicios-Capacidad {
+		padding-left: 115px;
+	}
+
+	.QueOfrecemos-List {
+		width: 330px;
+	}
+
+	.QueOfrecemos-ItemList div {
+		width: 250px;
+	}
+}
+
+@media only screen and (max-width: 400px)
+{
+
+	h1, h2, h3, h4, h5, h6 {
+		font-size: 34px;
+	}
+
+	.Header-Logo {
+		width: 256px;
+		height: 75px;
+	}
+
+	.Header-Title {
+		font-size: 24px;
+	}
+
+	.Precios-Center {
+		width: 290px;
+	}
+
+	.Precios-ContentCostos {
+		width: 230px;
+		padding-top: 5px;
+		padding-bottom: 10px;
+		padding-left: 60px;
+		position: relative;
+	}
+
+	.Precios-Costo {
+		margin-left: 35px;
+	}
+
+	.QueOfrecemos-List {
+		width: 300px;
+	}
+
+	.QueOfrecemos-ItemList {
+		margin-right: 0px !important;
+	}
+
+	.QueOfrecemos-ItemList div {
+		width: 220px;
+	}
+
+	.NuestrosServicios-Capacidad {
+		width: 80%;
+		padding: 18px;
+		padding-top: 110px;
+		margin-top: 10px;
+	}
+
+	.NuestrosServicios-Capacidad:before {
+		top: 12px;
+		left: 0px;
+		right: 0px;
+		margin: 0px auto;
+	}
+
+	.Contacto-Center {
+		width: 90%;
+	}
+
+	.Contacto-Datos {
+		width: 290px;
+	}
+}

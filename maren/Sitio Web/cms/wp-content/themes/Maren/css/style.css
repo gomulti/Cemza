@@ -1,0 +1,378 @@
+html, body
+{
+  	height: 100%;
+}
+
+body
+{
+  	font: 16px 'open_san';  
+	color: #333333;
+	background-color: #dde8eb;
+	position: relative;
+}
+
+strong
+{
+  	font-family: 'open_sansbold';
+}
+
+em
+{
+	font-family: 'open_sansitalic';
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	color: #00b287;
+ 	font: 48px 'ralewaymedium';
+}
+
+a, a:before, a:after
+{
+	color: #ffffff;
+ 	text-decoration: none;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+a:hover, a:hover:before, a:hover:after
+{	
+	cursor: pointer;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+span, span:before, span:after
+{
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+span:hover, span:hover:before, span:hover:after
+{	
+	cursor: pointer;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+input, textarea
+{
+	width: 100%;
+	height: 35px;
+	font: 18px 'open_san';
+	color: #fff;
+	background: none;
+	border: 0px;
+	border-bottom: 3px solid #99d7cb;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 2px;
+	margin-bottom: 26px;
+}
+
+textarea
+{
+	height: 101px;
+	padding-top: 6px;
+	margin-bottom: 2px;
+	resize: none;
+}
+
+input[type="number"]
+{
+    width: 35px;
+    height: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    border: 2px solid #A6244A;
+}
+
+input:focus, textarea:focus, .inputSeleccionado
+{
+	outline: 0;
+	border-color: #00ffc2;
+}
+
+input[type="checkbox"]
+{
+	width: auto;
+	height: auto;
+	margin: 0px;
+	margin-right: 9px;
+	vertical-align: middle;
+}
+
+/******************************************************Placeholder******************************************************/
+
+::-webkit-input-placeholder
+{
+ 	color: #ffffff;
+}
+
+::-o-input-placeholder
+{
+ 	color: #ffffff;
+}
+
+::-ms-input-placeholder
+{
+ 	color: #ffffff;
+}
+
+:-moz-input-placeholder
+{
+ 	color: #ffffff;
+}
+
+::-moz-input-placeholder
+{
+ 	color: #ffffff;
+}
+
+/************************************************************************************/
+
+.MainNav{
+	height: 80px;
+	background-color: #dce8eb;
+	border-bottom: 4px solid #00b287;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+}
+
+.MainNav-Logo{
+	width: 50px;
+    height: 50px;
+    background: url(../images/logoMenu.png) no-repeat;
+    margin-top: 16px;
+    margin-right: 170px;
+}
+
+.MainNav-Logo:hover{
+	cursor: pointer;
+	-webkit-transform: rotate(360deg);
+	-o-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: rotate(360deg);
+}
+
+
+.MainNav-Center{
+	width: 1199px;	
+}
+
+.MainNav-ItemList{
+	color: #071689;
+    font: 18px 'ralewaysemibold';
+    padding: 29px 53px;
+    margin-right: -4px;
+}
+
+
+.MainNav-ItemList:hover, .MainNav-ItemList.activo{
+    background-color: #eef4f5;	
+}
+
+
+.MainNav-Idioma{
+	width: 33px;
+    height: 33px;
+    background: url(../images/icoIdioma.png) no-repeat;
+    border: 2px solid #10b68e;
+	margin-top: 16px;
+	margin-left: 160px;
+}
+
+.MainNav-Idioma:hover{
+	border-color: #00ffc2;
+	-webkit-transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);
+}
+
+/************************************************************************************/
+
+.Header{
+	height: 780px;
+	height: 100%;
+	height: 92%;
+	margin-top: 84px;
+	position: relative;
+}
+
+.Header-Sombra{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(5,14,90,0.50);
+}
+
+.Header-ContainerLogo{
+	width: 42%;
+	height: 100%;
+	background: url(../images/sombraLogoHeader.png) no-repeat;	
+	border-right: 3px solid #00b287;
+	position: relative;
+}
+
+.Header-Logo{
+	width: 262px;
+	height: 209px;
+	background: url(../images/logo.png) no-repeat;
+	/*margin-top: 220px;*/
+	margin-right: 49px;
+	position: relative;
+	top: 28%;
+}
+
+.Header-Title{
+	width: 440px;
+	color: #fff;
+	font-size: 30px;
+	/*margin-top: 330px;*/
+	margin-left: 65px;
+	position: relative;
+	top: 41%;
+}
+
+/************************************************************************************/
+
+.Post{
+	padding: 190px 0px;
+}
+
+.Post-Center{
+	width: 72%;
+}
+
+/************************************************************************************/
+
+.Footer{
+	color: #ffffff;
+	background-color: #373737;	
+}
+
+.Footer-Center{
+	width: 1155px;
+	padding: 24px 0px;
+}
+
+.Footer-Txt{
+	font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.Footer a:hover{
+	color: #00ffc2;
+	text-decoration:underline;
+}
+
+
+.Contacto{
+	height: 679px;
+	background: url(../images/fondos/bgContacto.jpg) no-repeat;
+}
+
+.Contacto-Center{
+	width: 1140px;	
+	padding-top: 122px;
+	padding-bottom: 100px;
+}
+
+.Contacto-Title{
+	color: #fff;
+	margin-bottom: 41px;
+}
+
+.Contacto-Datos{
+	width: 422px;
+}
+
+.Contacto-List li{
+	padding-left: 38px;
+	margin-bottom: 20px;
+}
+
+.Contacto-IcoDireccion{
+	background: url(../images/icoDireccion.png) 0px 8px no-repeat;
+}
+
+.Contacto-IcoTelefono{
+	background: url(../images/icoTelefono.png) 0px 2px no-repeat;
+}
+
+.Contacto-IcoEmail{
+	background: url(../images/icoEmail.png) 2px 10px no-repeat;
+}
+
+.Contacto-TitleList{
+	font-size: 24px;
+}
+
+.Contacto-List a{
+	text-decoration:underline;
+}
+
+.Contacto-Formulario{
+	width: 444px;
+	margin-top: 35px;
+	margin-left: 135px;
+}
+
+.Contacto-Btn{
+	width: 185px;
+	height: 42px;
+	color: #00b287;
+	font: 24px 'open_sansbold';
+	line-height: 40px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	padding-left: 37px;
+	position: relative;
+}
+
+.Contacto-Btn:before{
+	content: "";
+	width: 34px;
+	height: 24px;
+	background:url(../images/icoEnviar.png) no-repeat;
+	position:absolute;
+	top: 12px;
+	right: 21px;
+}
+
+.Contacto-Btn:hover {
+    color: #02dea9 !important;
+    text-decoration: none !important;
+}
+
+.Contacto-Btn:hover:before {
+	right: 17px;
+}
+
+.Contacto-Msj{
+	display: none;
+	margin-top: 50px;
+}
+
+.Contacto-Msj strong{
+    color: #04ffc2;
+    font-size: 20px;
+}
+

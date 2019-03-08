@@ -1,0 +1,161 @@
+.panorama-viewport {
+	position: relative;
+	width: 600px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.panorama-container {
+	position: relative;
+	width: 100000px;
+	margin: 0;
+	padding: 0;
+
+}
+.panorama-control {
+	position: absolute;
+	display: block !important;
+	padding: 0;
+	margin: 0;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	height: 44px;
+	background: #051f2f;
+	filter: alpha(opacity=66);
+	opacity: 0.66;
+	text-align: left;
+}
+
+.panorama-control a
+{
+	font-size: 0px;
+}
+
+.panorama-control-left, .panorama-control-right { 
+	width: 14px;
+	height: 20px;
+	text-decoration: none;
+	position: absolute;
+  	top: 13px;
+}
+
+.panorama-control-left
+{ 
+	background: url(../images/embarcaciones/ico-prev.png) no-repeat;
+	left: 97px;
+}
+
+.panorama-control-right 
+{ 
+	background: url(../images/embarcaciones/ico-next.png) no-repeat;
+	right: 108px;
+}
+
+.panorama-control-pause { 
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	width: 25px;
+	height: 26px;
+	background: url(../images/embarcaciones/ico360.png) no-repeat;
+	position: absolute;
+  	top: 10px;
+  	left: 0px;
+  	right: 0px;
+  	margin: 0px auto;
+}
+
+.panorama-control-left:hover
+{ 
+	left: 92px;
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);		
+	behavior: url('PIE/PIE.htc');	
+}
+
+.panorama-control-right:hover
+{ 
+	right: 103px;
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);		
+	behavior: url('PIE/PIE.htc');	
+}
+
+.panorama-control-pause:hover 
+{ 
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+	behavior: url('PIE/PIE.htc');
+}
+
+.panorama-panel {
+	position: absolute;
+	display: none;
+	top: 0;
+	right: 0;
+	background: #009cff;
+	filter: alpha(opacity=50);
+	opacity: .5;
+	color: white;
+	padding: 4px;
+}
+.panorama-panel h2 {
+	font-size: 11px;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	text-align: right;
+}
+.panorama-panel ul {
+	display: none;
+}
+.panorama {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.panorama-area {
+	border: 2px solid white;
+	filter: alpha(opacity=20);
+	opacity: .2;
+	background: black;
+	font-size: 100%;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	text-align: right;
+}
+.panorama-area-hover {
+	background: #0080e2;
+	cursor: pointer;
+} 
+
+.area0-hover {
+	background: #ff7e00;
+}
+.area1-hover {
+	background: #25bf5b;
+}
+.panorama-title {
+ 	position: absolute; 
+	right: 0;
+	top: 0; 
+	font-size: 16px; 
+	font-family: Verdana;
+	background: gray;
+	padding: 3px;
+	filter: alpha(opacity=50);
+	opacity: .5;
+}

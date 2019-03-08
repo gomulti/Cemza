@@ -1,0 +1,117 @@
+
+/************************************************************************************
+--> TABLET LANDSCAPE
+************************************************************************************/
+@media screen  and (max-width : 1024px) {
+
+	#collage {
+		width: 30% !important;
+	}
+	#aboutText {
+		width: 65% !important;
+		margin-left: 3%;
+	}
+	#empresas ul li {
+		width: 49.5%;
+	}
+	.col_contacto {
+	width: 95%;
+	margin: auto;
+	}
+	input, textarea {
+	min-width: 80%;
+	max-width: 95%;
+	}
+	input[type=button] {
+	min-width: 50%;
+	}
+	.data_contacto {
+	padding: 90px 0 0 20%;
+	margin: auto;
+	}
+	#contenido_empresa div {
+	width: 95%;
+	margin-right: 2%;
+	}
+	a.link-empresa {
+	width: 70%;
+	}
+
+}
+/************************************************************************************
+--> TABLET PORTRAIT
+************************************************************************************/
+@media screen  and (max-width : 768px) {
+	#MainNav ul li a{
+	margin-bottom: 40px;
+	}
+	#about {
+	background: url('../img/bg_about.jpg') #f4f4f4 no-repeat center bottom !important;
+	}
+	a.btn_playVid {
+	width: 80%;
+	}
+	#brochure {
+	background: url('../img/bg_brochure.jpg') #b1141c no-repeat center bottom !important;
+	}
+	#contacto p {
+	width: 90% !important;
+	}
+	footer {
+	text-align: center;
+	height: 90px;
+	}
+	footer span {
+		display: block;
+		margin: 10px auto;
+	}
+	footer img {
+		float: none;
+		display: block !important;
+		margin: auto !important;
+	}
+}
+/************************************************************************************
+--> SMARTPHONE
+************************************************************************************/
+@media screen  and (max-width : 499px) {
+	#logo{
+	text-align: center;
+	margin: 0 auto;
+	-moz-transform: scale(0.7);
+	-webkit-transform: scale(0.7);
+	-o-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+	}
+	#collage {
+	display: none !important;
+	}
+	#aboutText {
+	width: 95% !important;
+	margin-left: 3%;
+	}
+	a.btn_playVid {
+	width: 90%;
+	}
+	a.btn_download {
+	width: 90%;
+	}
+	#empresas ul li {
+		width: 100%;
+	}
+	ul#lista_servicios li {
+	width: 48%;
+	}
+	a.link-empresa {
+	width: 90%;
+	}
+	input[type=button] {
+	min-width: 90%;
+	}
+	.data_contacto {
+	padding: 90px 0 0 0;
+	margin: auto;
+	}
+
+}

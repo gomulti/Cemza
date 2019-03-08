@@ -1,0 +1,3 @@
+[27-Jan-2011 11:23:15] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'nousmedi_enerm'@'localhost' (using password: YES) in /home/enermar/public_html/nuevoprecio.php on line 93
+[27-Jan-2011 11:23:15] PHP Warning:  mysql_select_db(): supplied argument is not a valid MySQL-Link resource in /home/enermar/public_html/nuevoprecio.php on line 94
+[27-Jan-2011 11:23:15] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/enermar/public_html/nuevoprecio.php on line 95

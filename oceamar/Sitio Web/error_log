@@ -1,0 +1,12 @@
+[26-Jun-2018 21:53:31 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/index.php on line 127
+[26-Jun-2018 21:55:27 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/index.php on line 127
+[26-Jun-2018 21:55:30 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/index.php on line 127
+[26-Jun-2018 21:55:51 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/index.php on line 127
+[26-Jun-2018 21:56:09 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/index.php on line 127
+[26-Jun-2018 21:56:55 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/index.php on line 127
+[26-Jun-2018 21:57:10 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/index.php on line 127
+[26-Jun-2018 21:58:10 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/index.php on line 127
+[28-Jun-2018 17:27:00 UTC] PHP Warning:  include(): Failed opening '/home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamarindex-us.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/page.php on line 39
+[28-Jun-2018 21:43:10 UTC] PHP Parse error:  syntax error, unexpected '<' in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/index.php on line 138
+[28-Jun-2018 23:43:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/index.php on line 645
+[28-Jun-2018 23:43:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/gomserve/public_html/pruebas/oceamar/wp-content/themes/oceamar/index.php on line 645

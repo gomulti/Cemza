@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #mapContent {
+	width: 500px;
+	color: #444;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border-top: 5px solid red;
+}
+#mapHeading {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1.3em;
+}
+#mapContent img {
+	display: block;
+	width: 200px;
+	height: 125px;
+	float: left;
+	margin-right: 25px;
+}
+#mapContent p {
+	margin: 10px 0;
+}
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+      var map;
+      function initMap() {
+
+      	// Controles generales del mapa
+        var cemza = {lat: 18.6513185, lng: -91.8409509};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: cemza,
+        });
+
+        //Info window
+        var iconBase = 'img/';
+
+        var contentString = 
+        	'<div id="mapContent">'+
+            '<img src="img/cemza_sede.jpg" alt="" />'+
+            '<p id="mapHeading" class="firstHeading">Corporativo CEMZA</p>'+
+            '<p><strong>Headquaters: </strong>Av. Adolfo Lopez Mateos #179 Col. PIP Laguna Azul. C.P. 24140. Ciudad del Carmen, Campeche, México.</p>'+
+            '<strong>Phone: </strong> + 52(938) 38 2 71 81'+
+            '</div>';
+        
+        var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+
+        // Custom marker
+        var marker = new google.maps.Marker({
+          position: cemza,
+          icon: iconBase + 'icon_cemza_map.png',
+          map: map,
+          title: 'Corporativo CEMZA'
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCeRdIn82gAwR5GLmRZy_TAtSw4Enyv94&callback=initMap"
+    ></script>
+  </body>
+</html>
